@@ -6,3 +6,4 @@
 4. Allgemeine Schulung
 5. Datenschutzgesetz
 6. Website
+7. Cybersecurity
