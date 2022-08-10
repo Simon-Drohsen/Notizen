@@ -1,4 +1,4 @@
-# Wenn man mit GitHub arbeitet fängt man an mit folgenden Schriten an: 
+# Wenn man mit GitHub arbeitet faengt man an mit folgenden Schritten an: 
 git config user.name"**Dein Benutzername**"
 
 git config user.email "**deine E-mail**"
