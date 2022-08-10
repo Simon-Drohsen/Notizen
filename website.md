@@ -2,29 +2,29 @@ Notizen zur Website
 
 
 1. Worum geht es auf meiner Website?                                              Star Wars
-3. Welche Informationen zeige ich zu meinem Thema?                    Charakterbeschreibungen, Zusammenfassungen der Story, Planeten, verschiedene Schiffe
-4. Wie soll meine Website aussehen?                                                  Dunkel, Simple, formale Schriftart, subtil
+2. Welche Informationen zeige ich zu meinem Thema?                    Charakterbeschreibungen, Zusammenfassungen der Story, Planeten, verschiedene Schiffe
+3. Wie soll meine Website aussehen?                                                  Dunkel, Simple, formale Schriftart, subtil
 
 
 
 
 
 
-1. Website skizzieren *
-2. Inhalte und aussehen bestimmen
-    1. Text schreiben
-    2. Hauptfarbe wählen
-    3. Bilder auswählen
-        1. Haben Sie ein Bild gefunden, das Sie nutzen möchten, machen Sie folgendes bei Google Images:
-        2. Klicken Sie auf das Bild.Wählen Sie "Bild ansehen“.
-        3. Klicken Sie mit der rechten Maustaste auf das Bild und wählen Sie "Grafik speichern unter…" oder kopieren Sie die Internetaddresse des Bildes und speichern diese ab.
-3. Gehen Sie auf Google Fonts und scrollen Sie durch die Liste bis Sie eine Schriftart entdecken, welche Sie mögen. Sie können auch die Filter auf der rechten Seiten nutzen, um die Auswahl zu filtern.
-4. Klicken Sie den "+" Button bei der gewünschten Schriftart.
-5. Es erscheint eine Popup-Box. Klicken Sie auf den "* Family Selected" Button im unteren Bereich der Seite. ("*" abhängig davon wieviele Fonts man ausgewählt hat).
-6. In der Popup-Box stehen jetzt zwei Codes. Diese können Sie kopieren und in einem beliebigen Texteditor für später speichern.
+4. Website skizzieren *
+5. Inhalte und aussehen bestimmen
+6. Text schreiben
+7. Hauptfarbe wählen
+8. Bilder auswählen
+  1. Haben Sie ein Bild gefunden, das Sie nutzen möchten, machen Sie folgendes bei Google Images:
+    1. Klicken Sie auf das Bild.Wählen Sie "Bild ansehen“.
+   2. Klicken Sie mit der rechten Maustaste auf das Bild und wählen Sie "Grafik speichern unter…" oder kopieren Sie die Internetaddresse des Bildes und speichern diese ab.
+9. Gehen Sie auf Google Fonts und scrollen Sie durch die Liste bis Sie eine Schriftart entdecken, welche Sie mögen. Sie können auch die Filter auf der rechten Seiten nutzen, um die Auswahl zu filtern.
+  1. Klicken Sie den "+" Button bei der gewünschten Schriftart.
+  2. Es erscheint eine Popup-Box. Klicken Sie auf den "* Family Selected" Button im unteren Bereich der Seite. ("*" abhängig davon wieviele Fonts man ausgewählt hat).
+3. In der Popup-Box stehen jetzt zwei Codes. Diese können Sie kopieren und in einem beliebigen Texteditor für später speichern.
 
 
-Einen Ordner für alle Webprojekte machen, im Webprojekte Ordner einen Ordner nur für diese Website erstellen, Index.html im VS Code erstellen, Bider Ordner, Styles Ordner (CSS-Dateien), Scripts Ordner (), 
+Einen Ordner für alle Webprojekte machen, im Webprojekte Ordner einen Ordner nur für diese Website erstellen, Index.html im VS Code erstellen, Bider Ordner, Styles Ordner (CSS-Dateien), Scripts Ordner  
 
 Index.html
 
@@ -134,7 +134,7 @@ function setUserName() {
 
 Dann sieht die Website so aus:
 
-![This is an Image](/Dokumente/images/website-bildschirmfoto)
+![Website](/Dokumente/images/website-bildschirmfoto)
 
 Am Anfang kann man seinen Namen in ein Pop-up Feld reinschreiben damit nachher der eigene Name im Titel steht.  Ausserdem kann man auf das w-vision Logo klicken damit es zu einem Star Wars Logo wird.
 
