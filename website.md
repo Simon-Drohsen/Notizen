@@ -1,4 +1,4 @@
-<h1> Notizen zur Website <h1>
+<h1> Notizen zur Website 
 
 
 1. Worum geht es auf meiner Website?                                              Star Wars
@@ -29,7 +29,7 @@ Index.html
 
 style.css
 
-![Style.css-Dokument](/images/css-bildschirmfoto.png)
+![Css-Dokument](/images/css-bildschirmfoto.png)
 
 main.js
 
