@@ -30,11 +30,11 @@ Index.html
 
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>w-vision</title>
-    <link href="assets/style.css" rel="stylesheet" type="text/css">
-  </head>
+<head>
+<meta charset="utf-8">
+<title>w-vision</title>
+<link href="assets/style.css" rel="stylesheet" type="text/css">
+</head>
   <body>
     <h1>w-vision ist cool</h1>
 
