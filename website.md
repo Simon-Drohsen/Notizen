@@ -1,4 +1,4 @@
-<h1> Notizen zur Website 
+<h1> Notizen zur Website </h1>
 
 
 1. Worum geht es auf meiner Website?                                              Star Wars
@@ -14,7 +14,7 @@
 8. Bilder auswählen
   1. Haben Sie ein Bild gefunden, das Sie nutzen möchten, machen Sie folgendes bei Google Images:
     1. Klicken Sie auf das Bild.Wählen Sie "Bild ansehen“.
-   2. Klicken Sie mit der rechten Maustaste auf das Bild und wählen Sie "Grafik speichern unter…" oder kopieren Sie die Internetaddresse des Bildes und speichern diese ab.
+    2. Klicken Sie mit der rechten Maustaste auf das Bild und wählen Sie "Grafik speichern unter…" oder kopieren Sie die Internetaddresse des Bildes und speichern diese ab.
 9. Gehen Sie auf Google Fonts und scrollen Sie durch die Liste bis Sie eine Schriftart entdecken, welche Sie mögen. Sie können auch die Filter auf der rechten Seiten nutzen, um die Auswahl zu filtern.
   1. Klicken Sie den "+" Button bei der gewünschten Schriftart.
   2. Es erscheint eine Popup-Box. Klicken Sie auf den "* Family Selected" Button im unteren Bereich der Seite. ("*" abhängig davon wieviele Fonts man ausgewählt hat).
@@ -45,12 +45,7 @@ Am Anfang kann man seinen Namen in ein Pop-up Feld reinschreiben damit nachher d
 
 
 
-Wie funktioniert das Internet
-
-Der Client schickt ein request (Anfrage) an den Server. Der Server reagiert mit einer response (Antwort).
-
-
-Wie funktioniert der Weg vom Client bis zum Server
+**Wie funktioniert der Weg vom Client bis zum Server**
 
 
 * Ihre Internetverbindung: Erlaubt Ihnen Daten über das Internet zu senden und zu empfangen. Dies ist wie die eigentliche Straße auf der Sie entlang gehen, um von Ihrem Haus zum Laden zu gelangen.
@@ -58,12 +53,12 @@ Wie funktioniert der Weg vom Client bis zum Server
 * DNS: Domain Name Servers sind wie ein Adressbuch für Internetseiten. Wenn Sie nach einer Internetadresse suchen, dann schaut der Browser auf dem DNS nach, um die wirkliche Adresse dieser Webseite zu finden. Der Browser muss herausfinden, auf welchem Server die Webseite liegt, damit er eine HTTP Anfrage an die richtige Stelle senden kann. Dies ist vergleichbar mit dem heraussuchen der Adresse des Geschäftes, in dem Sie einkaufen gehen wollen, damit Sie dieses auch finden.
 * HTTP: Hypertext Transfer Protocol ist ein Applikations protocol welches eine Sprache definiert mit welcher Client und Server miteinander kommunizieren können. Dies ist wie die Sprache, mit der Sie im Laden Ihre Bestellung machen.
 * Zusätzliche Dateien: Eine Webseite wir aus verschiedenen Dateien zusammengesetzt, ähnlich wie sie aus verschiedenen Teilen aus dem Laden etwas sinnvolles bauen können. Diese Dateien kommen in zwei Haupttypen vor:
-    * Code Dateien: Webseiten sind hauptsächlich aus HTML, CSS, und JavaScript, aber es gibt noch weitere Möglichkeiten.
-    * Inhalte: Dies ist alles andere, was auf einer Website zu finden ist, wie Bilder, Musik, Videos, Word-Dokumente oder PDFs.
+* Code Dateien: Webseiten sind hauptsächlich aus HTML, CSS, und JavaScript, aber es gibt noch weitere Möglichkeiten.
+* Inhalte: Dies ist alles andere, was auf einer Website zu finden ist, wie Bilder, Musik, Videos, Word-Dokumente oder PDFs.
 
 
 
-Was passiert jetzt also genau?
+**Was passiert jetzt also genau?**
 
 Wenn Sie eine Internetadresse in Ihren Browser eintippen (wie wenn Sie zu dem Laden gehen):
 1. Der Browser kontaktiert den DNS Server und findet die echte Adresse von dem Server auf dem die Webseite liegt (Sie finden die Adresse des Ladens).
