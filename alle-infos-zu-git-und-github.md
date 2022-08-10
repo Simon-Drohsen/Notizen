@@ -1,4 +1,4 @@
-# Infos über Git und GitHub
+<h1> Infos über Git und GitHub</h1>
 
 ## Was macht Git?
 
