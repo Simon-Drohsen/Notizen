@@ -28,7 +28,7 @@ Einen Ordner für alle Webprojekte machen, im Webprojekte Ordner einen Ordner nu
 
 Index.html
 
-![Html-Dokument](/git/git-notizen/Notizen/html-bildschirmfoto.png)
+![Html-Dokument](/images/html-bildschirmfoto.png)
 
 style.css
 
@@ -111,7 +111,7 @@ function setUserName() {
 
 Dann sieht die Website so aus:
 
-[Website](/git/git-notizen/Notizen/website-bildschirmfoto)
+![Website](/images/website-bildschirmfoto)
 
 Am Anfang kann man seinen Namen in ein Pop-up Feld reinschreiben damit nachher der eigene Name im Titel steht.  Ausserdem kann man auf das w-vision Logo klicken damit es zu einem Star Wars Logo wird.
 
