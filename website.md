@@ -8,7 +8,7 @@ Notizen zur Website
 
 
 
-
+html-bildschirmfoto.png
 
 4. Website skizzieren *
 5. Inhalte und aussehen bestimmen
@@ -28,7 +28,7 @@ Einen Ordner für alle Webprojekte machen, im Webprojekte Ordner einen Ordner nu
 
 Index.html
 
-![Html-Dokument](/Dokumente/images/html-bildschirmfoto.png)
+![Html-Dokument](/git/git-notizen/Notizen/html-bildschirmfoto.png)
 
 style.css
 
@@ -111,7 +111,7 @@ function setUserName() {
 
 Dann sieht die Website so aus:
 
-[Hier klicken!](file:///Users/simondrohsen/git/Website/Website/index.html)
+[Website](/git/git-notizen/Notizen/website-bildschirmfoto)
 
 Am Anfang kann man seinen Namen in ein Pop-up Feld reinschreiben damit nachher der eigene Name im Titel steht.  Ausserdem kann man auf das w-vision Logo klicken damit es zu einem Star Wars Logo wird.
 
