@@ -26,6 +26,119 @@ Notizen zur Website
 
 Einen Ordner für alle Webprojekte machen, im Webprojekte Ordner einen Ordner nur für diese Website erstellen, Index.html im VS Code erstellen, Bider Ordner, Styles Ordner (CSS-Dateien), Scripts Ordner (), 
 
+Index.html
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>w-vision</title>
+    <link href="assets/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <h1>w-vision ist cool</h1>
+
+    <img class="vader" src="assets/logos/w-vision.svg"   alt="w-vision Logo: Es steht w-vison in Blau und unter dem text steht klein Webentwicklung. ">
+    <p>In w-vision, sind wir eine Gemeinschaft aus</p>
+
+    <ul>
+      <li>Experten</li>
+      <li>Denkern</li>
+      <li>Machern</li>
+    </ul>
+    <p>Lest die Website <a href="https://w-vision.ch/de">w-vision</a> durch um mehr über meinen Lehrbetrieb zu erfahren.</p>
+    <button>Name ändern</button>
+    <script src="assets/main.js"></script>
+  </body>
+</html>
+
+
+style.css
+
+html {
+    font-size: 10px;
+    font-family: 'Lado', sans-serif;
+  }
+  
+.vader {
+  width: 300px;
+}
+
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+p, li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+
+html {
+  background-color: rgb(93, 93, 93);
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #00b7ff;
+  padding: 0 20px 20px 20px;
+  border: 5px solid rgb(93, 93, 93);
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: rgb(93, 93, 93);
+  text-shadow: 3px 3px 1px black;
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+
+main.js
+
+var myHeading = document.querySelector('h1');
+myHeading.textContent = 'Hallo Michis!';
+
+
+var myImage = document.querySelector('img');
+
+myImage.onclick = function() {
+    var mySrc = myImage.getAttribute('src');
+    if(mySrc === 'assets/logos/w-vision.svg') {
+        myImage.setAttribute('src','assets/star_wars_logo.png');
+    } else {
+      myImage.setAttribute('src','assets/logos/w-vision.svg');
+    }
+}
+var myButton = document.querySelector('button');
+var myHeading = document.querySelector('h1');
+
+function setUserName() {
+    var myName = prompt('Bitte geben Sie Ihren Namen ein.');
+    localStorage.setItem('name', myName);
+    myHeading.textContent = 'w-vision ist cool, ' + myName;
+  }
+  if(!localStorage.getItem('name')) {
+    setUserName();
+  } else {
+    var storedName = localStorage.getItem('name');
+    myHeading.textContent = 'w-vision ist cool, ' + storedName;
+  }
+
+Dann sieht die Website so aus:
+
+![This is an Image](/Dokumente/images/website-bildschirmfoto)
+
+Am Anfang kann man seinen Namen in ein Pop-up Feld reinschreiben damit nachher der eigene Name im Titel steht.  Ausserdem kann man auf das w-vision Logo klicken damit es zu einem Star Wars Logo wird.
+
+
 
 
 Wie funktioniert das Internet
@@ -52,3 +165,4 @@ Wenn Sie eine Internetadresse in Ihren Browser eintippen (wie wenn Sie zu dem La
 1. Der Browser kontaktiert den DNS Server und findet die echte Adresse von dem Server auf dem die Webseite liegt (Sie finden die Adresse des Ladens).
 2. Der Browser sendet eine HTTP-Anfrage an den Server und fragt nach einer Kopie der Webseite für den Client (Sie gehen zu dem Laden und bestellen Ihre Waren). Diese Nachricht und alle anderen Daten, welche zwischen Client und Server gesendet werden, nutzen Ihre Internetverbindung und nutzen TCP/IP für die Übertragung.
 3. Wenn der Server die Anfrage entgegennimmt, sendet dieser an den Client eine "200 OK" Nachricht, welche soviel bedeutet wie "Natürlich können Sie sich die Webseite anschauen! Hier ist sie." Danach sendet der Server die Dateien der Webseite, in kleinen Datenpaketen, an den Browser.  (Im Laden bekommen Sie Ihre Waren und bringen diese nach Hause)
+4. Im Browser werden die kleinen Datenpakete zusammengesetzt und zeigt Ihnen die komplette Webseite. (die Waren kommen bei Ihnen daheim an)
