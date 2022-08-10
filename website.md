@@ -12,13 +12,13 @@
 6. Text schreiben
 7. Hauptfarbe wählen
 8. Bilder auswählen
-  1. Haben Sie ein Bild gefunden, das Sie nutzen möchten, machen Sie folgendes bei Google Images:
-    1. Klicken Sie auf das Bild.Wählen Sie "Bild ansehen“.
-    2. Klicken Sie mit der rechten Maustaste auf das Bild und wählen Sie "Grafik speichern unter…" oder kopieren Sie die Internetaddresse des Bildes und speichern diese ab.
+  * Haben Sie ein Bild gefunden, das Sie nutzen möchten, machen Sie folgendes bei Google Images:
+    * Klicken Sie auf das Bild.Wählen Sie "Bild ansehen“.
+    * Klicken Sie mit der rechten Maustaste auf das Bild und wählen Sie "Grafik speichern unter…" oder kopieren Sie die Internetaddresse des Bildes und speichern diese ab.
 9. Gehen Sie auf Google Fonts und scrollen Sie durch die Liste bis Sie eine Schriftart entdecken, welche Sie mögen. Sie können auch die Filter auf der rechten Seiten nutzen, um die Auswahl zu filtern.
-  1. Klicken Sie den "+" Button bei der gewünschten Schriftart.
-  2. Es erscheint eine Popup-Box. Klicken Sie auf den "* Family Selected" Button im unteren Bereich der Seite. ("*" abhängig davon wieviele Fonts man ausgewählt hat).
-3. In der Popup-Box stehen jetzt zwei Codes. Diese können Sie kopieren und in einem beliebigen Texteditor für später speichern.
+  * Klicken Sie den "+" Button bei der gewünschten Schriftart.
+  * Es erscheint eine Popup-Box. Klicken Sie auf den "* Family Selected" Button im unteren Bereich der Seite. ("*" abhängig davon wieviele Fonts man ausgewählt hat).
+  * In der Popup-Box stehen jetzt zwei Codes. Diese können Sie kopieren und in einem beliebigen Texteditor für später speichern.
 
 
 Einen Ordner für alle Webprojekte machen, im Webprojekte Ordner einen Ordner nur für diese Website erstellen, Index.html im VS Code erstellen, Bider Ordner, Styles Ordner (CSS-Dateien), Scripts Ordner  
@@ -45,7 +45,7 @@ Am Anfang kann man seinen Namen in ein Pop-up Feld reinschreiben damit nachher d
 
 
 
-**Wie funktioniert der Weg vom Client bis zum Server**
+**Wie funktioniert der Weg vom Client bis zum Server?**
 
 
 * Ihre Internetverbindung: Erlaubt Ihnen Daten über das Internet zu senden und zu empfangen. Dies ist wie die eigentliche Straße auf der Sie entlang gehen, um von Ihrem Haus zum Laden zu gelangen.
