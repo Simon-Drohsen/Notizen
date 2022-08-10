@@ -111,7 +111,7 @@ function setUserName() {
 
 Dann sieht die Website so aus:
 
-![Website](/images/website-bildschirmfoto)
+![Website](/images/website-bildschirmfoto.png)
 
 Am Anfang kann man seinen Namen in ein Pop-up Feld reinschreiben damit nachher der eigene Name im Titel steht.  Ausserdem kann man auf das w-vision Logo klicken damit es zu einem Star Wars Logo wird.
 
