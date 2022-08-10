@@ -1,4 +1,4 @@
-Notizen zur Website
+<h1> Notizen zur Website <h1>
 
 
 1. Worum geht es auf meiner Website?                                              Star Wars
@@ -6,9 +6,6 @@ Notizen zur Website
 3. Wie soll meine Website aussehen?                                                  Dunkel, Simple, formale Schriftart, subtil
 
 
-
-
-html-bildschirmfoto.png
 
 4. Website skizzieren *
 5. Inhalte und aussehen bestimmen
@@ -32,82 +29,12 @@ Index.html
 
 style.css
 
-html {
-    font-size: 10px;
-    font-family: 'Lado', sans-serif;
-  }
-  
-.vader {
-  width: 300px;
-}
-
-
-h1 {
-  font-size: 60px;
-  text-align: center;
-}
-
-p, li {
-  font-size: 16px;
-  line-height: 2;
-  letter-spacing: 1px;
-}
-
-
-html {
-  background-color: rgb(93, 93, 93);
-}
-
-body {
-  width: 600px;
-  margin: 0 auto;
-  background-color: #00b7ff;
-  padding: 0 20px 20px 20px;
-  border: 5px solid rgb(93, 93, 93);
-}
-
-h1 {
-  margin: 0;
-  padding: 20px 0;
-  color: rgb(93, 93, 93);
-  text-shadow: 3px 3px 1px black;
-}
-img {
-  display: block;
-  margin: 0 auto;
-}
-
+![Style.css-Dokument](/images/css-bildschirmfoto.png)
 
 main.js
 
-var myHeading = document.querySelector('h1');
-myHeading.textContent = 'Hallo Michis!';
+![Java-Script-Dokument](/images/javascript-bildschirmfoto.png)
 
-
-var myImage = document.querySelector('img');
-
-myImage.onclick = function() {
-    var mySrc = myImage.getAttribute('src');
-    if(mySrc === 'assets/logos/w-vision.svg') {
-        myImage.setAttribute('src','assets/star_wars_logo.png');
-    } else {
-      myImage.setAttribute('src','assets/logos/w-vision.svg');
-    }
-}
-var myButton = document.querySelector('button');
-var myHeading = document.querySelector('h1');
-
-function setUserName() {
-    var myName = prompt('Bitte geben Sie Ihren Namen ein.');
-    localStorage.setItem('name', myName);
-    myHeading.textContent = 'w-vision ist cool, ' + myName;
-  }
-  if(!localStorage.getItem('name')) {
-    setUserName();
-  } else {
-    var storedName = localStorage.getItem('name');
-    myHeading.textContent = 'w-vision ist cool, ' + storedName;
-  }
 
 Dann sieht die Website so aus:
 
