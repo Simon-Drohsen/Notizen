@@ -29,7 +29,7 @@ Index.html
 
 style.css
 
-![Css-Dokument](/images/css-bildschirmfoto.png)
+![css-Dokument](/images/css-Bildschirmfoto.png)
 
 main.js
 
