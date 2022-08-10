@@ -28,7 +28,7 @@ Einen Ordner für alle Webprojekte machen, im Webprojekte Ordner einen Ordner nu
 
 Index.html
 
-![Html-Dokument](/Dokumente/images/html-bildschirmfoto)
+![Html-Dokument](/Dokumente/images/html-bildschirmfoto.png)
 
 style.css
 
