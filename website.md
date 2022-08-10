@@ -28,30 +28,7 @@ Einen Ordner für alle Webprojekte machen, im Webprojekte Ordner einen Ordner nu
 
 Index.html
 
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>w-vision</title>
-<link href="assets/style.css" rel="stylesheet" type="text/css">
-</head>
-  <body>
-    <h1>w-vision ist cool</h1>
-
-    <img class="vader" src="assets/logos/w-vision.svg"   alt="w-vision Logo: Es steht w-vison in Blau und unter dem text steht klein Webentwicklung. ">
-    <p>In w-vision, sind wir eine Gemeinschaft aus</p>
-
-    <ul>
-      <li>Experten</li>
-      <li>Denkern</li>
-      <li>Machern</li>
-    </ul>
-    <p>Lest die Website <a href="https://w-vision.ch/de">w-vision</a> durch um mehr über meinen Lehrbetrieb zu erfahren.</p>
-    <button>Name ändern</button>
-    <script src="assets/main.js"></script>
-  </body>
-</html>
-
+![Html-Dokument](/Dokumente/images/html-bildschirmfoto)
 
 style.css
 
