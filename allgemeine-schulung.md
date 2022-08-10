@@ -1,7 +1,13 @@
-Allgemeine Schulung
+<h1> Allgemeine Schulung </h1>
 
-Die ganze Interne Kommunikation passiert über Teams. Dort werden Sachen reingeschrieben wie: Wer hat „Küchenämtli“ oder wann ist der nächste Anlass usw. 
+* Die ganze Interne Kommunikation passiert über Teams. 
 
-im Citrix Workspace kann man Comatic öffnen. Das ist dazu da um die Ferien einzutragen, Tagesreporte zu machen, zum nachschauen wie viele minus oder Überstunden man hat, usw. Man kann aber auch nachschauen wer bei welchem Projekt ist und was er gerade macht.
+* Dort werden Sachen reingeschrieben wie: Wer hat „Küchenämtli“, wann ist der nächste Anlass, usw. 
 
-im Wrike kann man Projekte speichern, wieder Ferien eingeben, Sachen teilen, usw. Es ist aber sehr kompliziert.
+* Im Citrix Workspace kann man Comatic öffnen. 
+
+* Die ganze Interne Kommunikation passiert über Teams. Dort werden Sachen reingeschrieben wie: Wer hat „Küchenämtli“ oder wann ist der nächste Anlass usw. 
+
+* Man kann aber auch nachschauen wer bei welchem Projekt ist und was er gerade macht.
+
+* Im Wrike kann man Projekte speichern, wieder Ferien eingeben, Sachen teilen, usw. Es ist aber sehr kompliziert.
