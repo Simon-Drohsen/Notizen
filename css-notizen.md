@@ -2,33 +2,33 @@
 
 * The basic anatomy of CSS syntax written for both inline styles and stylesheets.
 
-* Some commonly used CSS terms, such as ruleset, selector, and declaration.
+* Die gewöhnlichsten CSS Begriffe sind: ruleset, selector, und declaration.
 
-* CSS inline styles can be written inside the opening HTML tag using the style attribute.
+* CSS "inline styles" können in einem HTML Dokument geschrieben werden wenn man das "style" Attribut verwendet. can be written inside the opening HTML tag using the style attribute.
 
-* Inline styles can be used to style HTML, but it is not the best practice.
+* "inline styles" können dafür verwendet werden um ein HTML Dokument zu stylen, aber es ist nicht die beste übung.
 
-* An internal stylesheet is written using the <style> element inside the <head> element of an HTML file.
+* Ein "internal stylesheet" wird durch ein <style> Element geschrieben, das in einem <head> Element ist. und das in einem HTML Dokument.
 
-* Internal stylesheets can be used to style HTML but are also not best practice.
+* "internal stylesheets" können auch dazu verwendet werden um ein HTML Dokument zu stylen sind aber auch nicht die beste Übung.
 
-* An external stylesheet separates CSS code from HTML, by using the “.css”.file extension.
+* Ein "external stylesheet" seperiert einen CSS code von einem HTMLDokument, in dem es eine .css erweiterung benutzt.
 
-* External stylesheets are the best approach when it comes to using HTML and CSS.
+* "external stylesheets" sind der beste Ansatz um ein HTML Dokument zu stylen.
 
-* External stylesheets are linked to HTML using the <link> element.
+* "external stylesheets" sind mit dem <link> Element verbunden zum HTML Dokument.
 
-* CSS can select HTML elements by type, class, ID, and attribute.
+* CSS kann HTML Elemente auswählen, wie zum Beispiel "type", "class", "ID","attribute".
 
-* All elements can be selected using the universal selector.
+* Alle Elemente können mit dem "universal selector" ausgewählt werden.
 
-* An element can have different states using the pseudo-class selector.
+* Ein Element kan mit dem "pseudo-class selector" verschiedene Zustände haben.
 
-* Multiple CSS classes can be applied to one HTML element.
+* Es können mehrere "CSS classes" in ein HTML Dokument sein.
 
-* Classes can be reusable, while IDs can only be used once.
+* "Classes" kann man an verschiedenen Orten gebrauchen un "ID's" können nur einmal gebraucht werden.
 
-* IDs are more specific than classes, and classes are more specific than type. That means IDs will override any styles from a class, and classes will override any styles from a type selector.
+* "ID's" sind spezifischer als "classes" und "classes" sin spezifischer als "type". Das heisst "ID's" können "styles"  von "classes" überschreiben und "classes" können "styles" von "type" überschreiben.
 
 * Multiple selectors can be chained together to select an element. This raises the specificity but can be necessary.
 
