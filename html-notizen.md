@@ -93,3 +93,24 @@
 * <figcaption> wird verwendet, um die Medien in <figure> zu beschreiben.
 
 * Die Elemente <video>, <embed> und <audio> werden für Mediendateien verwendet.
+
+
+<h2>Bootstrap</h2>
+
+* Es müssen mehrere Links verwendet werden um ein Bootstrap zu benutzen (und 2 <meta> Tags).
+
+* Bootstrap 4 hat ein Grid system das Flexbox benutzt.
+
+* Das Grid System besteht aus container, Reihen und Spalten. aus denen besteht dann die Website.
+
+* Container müssen ins Grid eingefügt werden.
+
+* Container haben Reihen und Reihen haben Spalten.
+
+* Bootstraps Grids haben ein 12 Spalten System.
+
+* Bootstrap hat eine anpassbares Design damit es auf jedem Gerät funktioniert.
+
+* Um die Breite einer Spalte Manuell einzustellen, muss man Bootstraps namen konvention folgen.
+
+* Man kann mehrere Klassen zu einer Spalte hinzufügen, damit man die Breite an spezifischen "Breakpoints" einstellen kann.

@@ -30,120 +30,266 @@
 
 * "ID's" sind spezifischer als "classes" und "classes" sin spezifischer als "type". Das heisst "ID's" können "styles"  von "classes" überschreiben und "classes" können "styles" von "type" überschreiben.
 
-* Multiple selectors can be chained together to select an element. This raises the specificity but can be necessary.
+* Mehrere "selectors" können miteinander verkettet werden, um ein Element auszuwählen. Dies erhöht die Spezifität, kann aber notwendig sein.
 
-* Nested elements can be selected by separating selectors with a space.
+* Verschachtelte Elemente können ausgewählt werden, indem "selectors" durch ein Leerzeichen getrennt werden.
 
-* Multiple unrelated selectors can receive the same styles by separating the selector names with commas.
+* Mehrere unabhängige "selectors" können dieselben "styles" haben, indem die "selector"-namen durch Kommas getrennt werden.
 
-* The font-family property defines the typeface of an element.
+* Das Attribut "font-family" definiert die Schriftart eines Elements.
 
-* font-size controls the size of text displayed.
+* "font-size" steuert die Größe des angezeigten Textes.
 
-* font-weight defines how thin or thick text is displayed.
+* "font-weight" definiert, wie dünne oder dicke Text angezeigt wird.
 
-* The text-align property places text in the left, right, or center of its parent container.
+* Das Attribut "text-align" platziert Text links, rechts oder in der Mitte seines übergeordneten Containers.
 
-* Text can have two different color attributes: color and background-color. color defines the color of the text, while background-color defines the color behind the text.
+* Text kann zwei verschiedene Farbattribute haben: Farbe und Hintergrundfarbe. "color" definiert die Farbe des Textes, während "background-color" die Farbe hinter dem Text definiert.
 
-* CSS can make an element transparent with the opacity property.
+* CSS kann ein Element mit dem Attribut "opacity()" transparent machen.
 
-* CSS can also set the background of an element to an image with the background-image property.
+* CSS kann mit dem Attribut "background-image" auch den Hintergrund eines Elements auf ein Bild setzen.
 
-* The !important flag will override any style, however it should almost never be used, as it is extremely difficult to override.
+* Das "!important-Flag" überschreibt jeden Stil, sollte jedoch fast nie verwendet werden, da es extrem schwierig ist, es zu überschreiben.
 
-* The box model comprises a set of properties used to create space around and between HTML elements.
+* Das Box-Modell besteht aus einer Reihe von Attributen, die verwendet werden, um Platz um und zwischen HTML-Elementen zu schaffen.
 
-* The height and width of a content area can be set in pixels or percentages.
+* Die Höhe und Breite eines Inhaltsbereichs kann in Pixeln oder Prozent angegeben werden.
 
-* Borders surround the content area and padding of an element. The color, style, and thickness of a border can be set with CSS properties.
+* Rände umgeben den "content" und das "padding" eines Elements. Die Farbe, der Stil und die Dicke eines Randes können mit CSS Attribut festgelegt werden.
+ 
+* "padding" ist der Abstand zwischen dem "content" und dem Rand. Es kann in Pixel oder Prozent angegeben werden.
 
-* Padding is the space between the content area and the border. It can be set in pixels or percent.
+* "margin" ist der Abstand ausserhalb des Randes eines Elements.
 
-* Margin is the amount of spacing outside of an element’s border.
+* Horizontale Ränder werden addiert, sodass der Gesamtabstand zwischen den Rändern benachbarter Elemente gleich der Summe des rechten Rands eines Elements und des linken Rands des benachbarten Elements ist.
 
-* Horizontal margins add, so the total space between the borders of adjacent elements is equal to the sum of the right margin of one element and the left margin of the adjacent element.
+* Vertikale Ränder fallen zusammen, sodass der Abstand zwischen vertikal benachbarten Elementen gleich dem größeren Rand ist.
 
-* Vertical margins collapse, so the space between vertically adjacent elements is equal to the larger margin.
+* "margin: 0 auto" zentriert ein Element horizontal innerhalb seines übergeordneten Inhal"contents", wenn es eine Breite hat.
 
-* margin: 0 auto horizontally centers an element inside of its parent content area, if it has a width.
+* Das "Overflow" Attribut kann so eingestellt werden, display, hide, oder scroll, und es diktiert das HTML wie es den "content" behandeln soll der über den "parentcontent" überlaufen.
 
-* The overflow property can be set to display, hide, or scroll, and dictates how HTML will render content that overflows its parent’s content area.
+* Das "visibility" Attribut kann Elemente ein- oder ausblenden.
 
-* The visibility property can hide or show elements.
+* Mit dem "position" Attribut kann man die Position eines Elements angeben.
 
-* The position property allows you to specify the position of an element.
+* Wenn "position" auf "relativ" gestellt ist, ist die Standartsposition relativ auf der Website.
 
-* When set to relative, an element’s position is relative to its default position on the page.
+* Wenn "position" auf "absolute" gestellt ist, dann ist ein Element relativ zum "parent" Element.
 
-* When set to absolute, an element’s position is relative to its closest positioned parent element. It can be pinned to any part of the web page, but the element will still move with the rest of 
+* Wenn "position" auf "fixed" gestellt ist, wird der "content" immer im Sichtfeld bleiben, egal ob man scrollt oder nicht.
 
-* the document when the page is scrolled.
+* Wenn "position" auf "sticky" gestellt ist, dann bleibt es immer beim "parentcontainer".
 
-* When set to fixed, an element’s position can be pinned to any part of the web page. The element will remain in view no matter what.
+* Der Z-Index eines Elements gibt an, wie weit hinten oder wie weit vorne ein Element auf der Seite erscheint, wenn es andere Elemente überlappt.
 
-* When set to sticky, an element can stick to a defined offset position when the user scrolls its parent container.
+* Mit der Anzeigeeigenschaft können Sie steuern, wie ein Element vertikal und horizontal in einem Dokument fließt.
 
-* The z-index of an element specifies how far back or how far forward an element appears on the page when it overlaps other elements.
+* Inline-Elemente nehmen so wenig Platz wie möglich ein und können weder in der Breite noch in der Höhe manuell angepasst werden.
 
-* The display property allows you to control how an element flows vertically and horizontally in a document.
+* Blockelemente nehmen die Breite ihres Containers ein und können manuell in der Höhe angepasst werden.
 
-* inline elements take up as little space as possible, and they cannot have manually adjusted width or height.
+* Inline-Block-Elemente können festgelegte Breite und Höhe haben, sie können aber auch nebeneinander erscheinen und nicht ihre gesamte Containerbreite einnehmen.
 
-* block elements take up the width of their container and can have manually adjusted heights.
+* Die Float-Eigenschaft kann Elemente auf einer Webseite so weit links oder so weit rechts wie möglich verschieben.
 
-* inline-block elements can have set width and height, but they can also appear next to each other and do not take up their entire container width.
+* Mit der clear-Eigenschaft können Sie die linke oder rechte Seite eines Elements (oder beide) löschen.
 
-* The float property can move elements as far left or as far right as possible on a web page.
+* Benannte Farben – es gibt mehr als 140 benannte Farben, die Sie hier überprüfen können.
 
-* You can clear an element’s left or right side (or both) using the clear property.
+* Hexadezimal- oder Hex-Farben
 
-* Named colors—there are more than 140 named colors, which you can review here.
+* Hexadezimal ist ein Zahlensystem mit sechzehn Ziffern, 0 bis 9, gefolgt von „A“ bis „F“.
 
-* Hexadecimal or hex colors
+* Hex-Werte beginnen immer mit # und geben Werte für Rot, Blau und Grün mit Hexadezimalzahlen wie #23F41A an.
 
-* Hexadecimal is a number system that has sixteen digits, 0 to 9 followed by “A” to “F”.
+* Sechsstellige Hexadezimalwerte mit doppelten Werten für jeden RGB-Wert können auf drei Ziffern gekürzt werden.
 
-* Hex values always begin with # and specify values of red, blue, and green using hexadecimal numbers such as #23F41A.
-
-* Six-digit hex values with duplicate values for each RGB value can be shorted to three digits.
 
 * <h2>RGB</h2>
 
+
 #ffffff #000000
 
-* RGB colors use the rgb() syntax with one value for red, one value for blue and one value for green.
+* RGB-Farben verwenden die rgb()-Syntax mit einem Wert für Rot, einem Wert für Blau und einem Wert für Grün.
 
-* RGB values range from 0 to 255 and look like this: rgb(7, 210, 50).
+* RGB-Werte reichen von 0 bis 255 und sehen so aus: rgb(7, 210, 50).
 
-* RGBA heisst Rot Grün Blau Alpha 
+* RGBA heißt Rot Grün Blau Alpha
+
 
 * <h2>HSL</h2>
 
-* HSL stands for hue (the color itself), saturation (the intensity of the color), and lightness (how light or dark a color is).
 
-* Hue ranges from 0 to 360 and saturation and lightness are both represented as percentages like this: hsl(200, 20%, 50%).
+* HSL steht für Farbton (die Farbe selbst), Sättigung (die Intensität der Farbe) und Helligkeit (wie hell oder dunkel eine Farbe ist).
 
-* You can add opacity to color in RGB and HSL by adding a fourth value, a, which is represented as a percentage.
+* Farbton reicht von 0 bis 360 und Sättigung und Helligkeit werden beide als Prozentsätze wie folgt dargestellt: hsl(200, 20 %, 50 %).
 
-* Typography is the art of arranging text on a page.
+* Sie können der Farbe in RGB und HSL Deckkraft hinzufügen, indem Sie einen vierten Wert hinzufügen, a, der als Prozentsatz dargestellt wird.
 
-* Text can appear bold or thin with the font-weight property.
+* Typografie ist die Kunst, Text auf einer Seite anzuordnen.
 
-* Text can appear in italics with the font-style property.
+* Text kann mit der Eigenschaft font-weight fett oder dünn erscheinen.
 
-* The vertical spacing between lines of text can be modified with the line-height property.
+* Text kann mit der Eigenschaft font-style kursiv dargestellt werden.
 
-* Serif fonts have extra details on the ends of each letter. Sans-Serif fonts do not.
+* Der vertikale Abstand zwischen Textzeilen kann mit der Eigenschaft line-height geändert werden.
 
-* Fallback fonts are used when a certain font is not installed on a user’s computer.
+* Serifenschriften haben zusätzliche Details am Ende jedes Buchstabens. Sans-Serif-Schriftarten nicht.
 
-* The word-spacing property changes how far apart individual words are.
+* Fallback-Schriftarten werden verwendet, wenn eine bestimmte Schriftart nicht auf dem Computer eines Benutzers installiert ist.
 
-* The letter-spacing property changes how far apart individual letters are.
+* Die Wortabstandseigenschaft ändert, wie weit einzelne Wörter voneinander entfernt sind.
 
-* The text-align property changes the horizontal alignment of text.
+* Die Eigenschaft Buchstabenabstand ändert, wie weit einzelne Buchstaben voneinander entfernt sind.
 
-* Google Fonts provides free fonts that can be used in an HTML file with the <link> tag or the @font-face property.
+* Die Eigenschaft text-align ändert die horizontale Ausrichtung von Text.
 
-* Local fonts can be added to a document with the @font-face property and the path to the font’s source.
+* Google Fonts bietet kostenlose Schriftarten, die in einer HTML-Datei mit dem <link>-Tag oder der @font-face-Eigenschaft verwendet werden können.
+
+* Lokale Schriftarten können einem Dokument mit der Eigenschaft @font-face und dem Pfad zur Quelle der Schriftart hinzugefügt werden.
+
+* grid-template-columns definiert die Anzahl und Größe der Spalten des Grids
+
+* grid-template-rows definiert die Anzahl und Größe der Zeilen des Grids
+
+* grid-template ist eine Abkürzung für die Definition von grid-template-columns und grid-template-rows in einer Zeile
+
+* row-gap setzt Leerzeichen zwischen die Zeilen des Rasters
+
+* column-gap setzt Leerzeichen zwischen die Spalten des Gitters
+
+* Lücke ist eine Abkürzung für die Definition von Reihenlücken und Spaltenlücken in einer Zeile
+
+* grid-row-start und grid-row-end sorgen dafür, dass Elemente bestimmte Zeilen des Grids überspannen
+
+* grid-column-start und grid-column-end sorgen dafür, dass Elemente bestimmte Spalten des Grids überspannen
+
+* grid-area ist eine Abkürzung für grid-row-start, grid-column-start, grid-row-end und grid-column-end, alles in einer Zeile
+
+* Grid-Template-Areas gibt Grid-Namen Grid Areas an
+
+* Grid-Layouts sind zweidimensional: Sie haben eine Zeilen- oder Inline-Achse und eine Spalten- oder Blockachse.
+
+* justify-items gibt an, wie einzelne Elemente über die Zeilenachse verteilt werden sollen
+
+* justify-content gibt an, wie Gruppen von Elementen über die Zeilenachse verteilt werden sollen
+
+* justify-self gibt an, wie sich ein einzelnes Element in Bezug auf die Zeilenachse positionieren soll
+
+* align-items gibt an, wie einzelne Elemente über die Spaltenachse verteilt werden sollen
+
+* align-content gibt an, wie Gruppen von Elementen über die Spaltenachse verteilt werden sollen
+ 
+* align-self gibt an, wie sich ein einzelnes Element in Bezug auf die Spaltenachse positionieren soll
+
+* grid-auto-rows gibt die Höhe der Zeilen an, die implizit zum Grid hinzugefügt werden
+
+* grid-auto-columns gibt die Breite der Spalten an, die dem Grid implizit hinzugefügt werden
+
+* grid-auto-flow gibt an, in welcher Richtung implizite Elemente erstellt werden sollen.
+
+* CSS-Übergänge bestehen aus 4 Komponenten:
+
+* Eine Eigenschaft, die übergehen wird.
+
+* Die Dauer, die beschreibt, wie lange der Übergang dauert.
+
+* Die Verzögerung zum Anhalten, bevor der Übergang stattfindet.
+
+* Die Timing-Funktion, die die Beschleunigung des Übergangs beschreibt.
+
+* Die Größe von Inhalten auf einer Website kann relativ zu anderen Elementen auf der Seite mithilfe von relativen Maßen angepasst werden.
+
+* Die Einheit der em-Größen-Schriftart relativ zur Schriftgröße eines übergeordneten Elements.
+
+* Die Einheit der Rem-Größen-Schriftart relativ zur Schriftgröße eines Wurzelelements. Dieses Wurzelelement ist das <html>-Element.
+
+* Prozentsätze werden häufig verwendet, um Eigenschaften von Boxmodellen wie Breite, Höhe, Polsterung oder Rand eines Elements zu skalieren.
+
+* Wenn Prozentsätze zur Größenanpassung von Breite und Höhe verwendet werden, werden die untergeordneten Elemente relativ zu den Abmessungen ihrer übergeordneten Elemente skaliert (denken Sie daran, dass die Abmessungen der übergeordneten Elemente zuerst festgelegt werden müssen).
+
+* Prozentsätze können verwendet werden, um Auffüllung und Rand einzustellen. Die horizontale und vertikale Auffüllung und der Rand werden relativ zur Breite eines übergeordneten Elements festgelegt.
+
+* Die minimale und maximale Breite der Elemente kann mit min-width und max-width eingestellt werden.
+
+* Die minimale und maximale Höhe der Elemente kann mit min-height und max-height eingestellt werden.
+
+* Wenn die Höhe eines Bildes oder Videos eingestellt ist, kann seine Breite auf automatisch eingestellt werden, sodass die Medien proportional skaliert werden. Das Umkehren dieser beiden Eigenschaften und Werte führt ebenfalls zum gleichen Ergebnis.
+
+* Ein Hintergrundbild eines HTML-Elements wird proportional skaliert, wenn seine Eigenschaft background-size auf cover eingestellt ist.
+
+
+<h2>CSS-Variablen</h2>
+
+
+* Variablen verringern die Notwendigkeit, Eigenschaftswerte zu wiederholen, und erleichtern das Lesen von CSS-Code.
+
+* Sie können Variablen in CSS verwenden, um Werte zu speichern.
+
+* Die Variablendeklaration muss mit einem doppelten Bindestrich (--) beginnen.
+
+* Variablen müssen als Werte für CSS-Eigenschaften verwendet werden.
+
+* Variablen müssen als Argument innerhalb der Funktion var() verwendet werden.
+
+* Variablen unterliegen sowohl dem Geltungsbereich als auch der Vererbung.
+
+* Variablen mit globalem Geltungsbereich werden innerhalb der Pseudoklasse :root definiert.
+
+* Das Überschreiben einer Variablen erfolgt durch Neudefinition des Werts dieser Variablen innerhalb des gewünschten Selektor-Regelsatzes.
+
+* Fallback-Werte können verwendet werden, um einen Backup-Wert bereitzustellen, wenn die ursprüngliche Variable ungültig ist.
+
+* Mehrere Fallback-Werte können bereitgestellt werden, indem weitere Werte innerhalb von kaskadierenden var()-Funktionen hinzugefügt werden.
+
+* Responsiv gestaltete Webseiten können erstellt werden, indem Variablen mit Medienabfragen kombiniert werden.
+
+<h2>CSS-Funktionen</h2>Variablen verringern die Notwendigkeit, Eigenschaftswerte zu wiederholen, und machen CSS-Code leichter lesbar.
+
+* Funktionen sind eine Art CSS-Wert, der anstelle eines hartcodierten Werts in eine CSS-Eigenschaft eingefügt wird
+
+* Die Funktion url() wird verwendet, um Ressourcen in das Stylesheet zu laden.
+
+* Sie können die Funktion calc() verwenden, um einfache mathematische Operationen an Elementen durchzuführen.
+
+* Die Funktion min() kann verwendet werden, um den kleinsten Wert aus einer Reihe von Werten auszuwählen und diesen Wert für eine Eigenschaft festzulegen.
+
+* Die Funktion max() kann verwendet werden, um den größten Wert aus einer Reihe von Werten auszuwählen und diesen Wert für eine Eigenschaft festzulegen.
+
+* Sie können die Funktion clamp() verwenden, um sicherzustellen, dass der Eigenschaftswert nach oben und unten skaliert wird, während Sie zwischen einer Ober- und einer Untergrenze bleiben.
+
+* Vollständig deckende Farbwerte können mit den Funktionen rgb() und hsl() gesetzt werden.
+
+* Farbwerte, die einen unterschiedlichen Alpha-Level benötigen, können mit den Funktionen rgba() und hsla() gesetzt werden.
+
+* Sie können Filterfunktionen verwenden, um das Erscheinungsbild von Eingabebildern und -elementen zu ändern.
+
+* Die Funktionen drop-shadow(), blur() und bright() führen jeweils unterschiedliche Arten der Elementfilterung durch.
+
+* Sie können Transformationsfunktionen verwenden, um Bildpositionierung, Skalierung, Drehung und mehr zu manipulieren.
+
+* Die Funktionen scale(), rotate() und translate() ermöglichen jeweils spezifische Transformationsarten.
+
+* Der Text soll mindestens 18px gross sein und die "line-height" soll 1.5 gross sein.
+
+* der Farben Kontrast soll mindestens 4.5:1 für standart Texte sein.
+
+* Interaktive Elemente sollten ein Zeichen haben das sie Interaktiv sind wie unterstrichen oder so.
+
+* Abgekürzte Sachen sind immer in einem <abbr> Element.
+
+* "visibility: hidden" oder "display: none" verstecken Texte von allen Usern.
+
+* Die visuelle Anzeige sollte die Struktur der präsentierten Elemente innerhalb des HTML widerspiegeln, um Navigationskohärenz für unterstützte und nicht unterstützte Benutzer bereitzustellen.
+
+* Designe Websiten immer für verschiedene grössen.
+
+* Mit Tools wie caniuse.com können wir überprüfen, ob eine CSS-Funktion in bestimmten Browsern verfügbar ist.
+
+* Browser haben Standardstile, die wir mit Ressourcen wie browserdefaultstyles.com überprüfen können.
+
+* Manchmal müssen wir browserspezifische Präfixe verwenden, insbesondere für neue CSS-Funktionen.
+
+* Polyfills bieten eine Möglichkeit, neuere Webfunktionen in älteren Browsern zu unterstützen.

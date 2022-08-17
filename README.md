@@ -6,4 +6,4 @@
 4. [Allgemeine Schulung](https://github.com/Osaaro/Notizen/blob/main/allgemeine-schulung.md)
 5. [Datenschutzgesetz](https://github.com/Osaaro/Notizen/blob/main/datenschutzgesetz.md)
 6. [Website](https://github.com/Osaaro/Notizen/blob/main/website.md)
-7. [Cybersecurity](https://github.com/Osaaro/Notizen/blob/main/cybersecurity.md) 
+7. [Cybersecurity](https://github.com/Osaaro/Notizen/blob/main/cybersecurity.md) grid-template-columns defines the number and sizes of the columns of the grid
