@@ -114,3 +114,13 @@
 * Um die Breite einer Spalte Manuell einzustellen, muss man Bootstraps namen konvention folgen.
 
 * Man kann mehrere Klassen zu einer Spalte hinzufügen, damit man die Breite an spezifischen "Breakpoints" einstellen kann.
+
+* Die Verwendung von semantischen HTML-Elementen, wann immer möglich (z. B. <header> anstelle von <div id="header">), ermöglicht Screenreader-Benutzern eine effizientere Navigation auf Ihrer Website.
+
+* Das Rollenattribut wird verwendet, um Informationen über die Rolle bestimmter Elemente zu übermitteln.
+
+* role="presentation" ermöglicht es einem Screenreader, Markup-Elemente zu überspringen, die nicht direkt nützliche Informationen enthalten.
+
+* aria-label und andere ARIA-Eigenschaften können verwendet werden, um Benutzern zu helfen, Informationen wahrzunehmen, die visuell, aber nicht durch Text kommuniziert werden.
+
+* Das alt-Attribut sollte jedem Bildelement (und allen anderen Elementen, die es unterstützen) anstelle von aria-label hinzugefügt werden. Wenn es verwendet wird, sollte sein Wert eine nützliche Beschreibung des Bildes sein.

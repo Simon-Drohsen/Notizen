@@ -293,3 +293,27 @@
 * Manchmal müssen wir browserspezifische Präfixe verwenden, insbesondere für neue CSS-Funktionen.
 
 * Polyfills bieten eine Möglichkeit, neuere Webfunktionen in älteren Browsern zu unterstützen.
+
+* Stile hinzugefügt, um Links erkennbar und von gewöhnlichem Text unterscheidbar zu machen.
+
+* Linkstile hinzugefügt, die vom Mausinteraktionsstatus abhängen und Benutzern ein visuelles Feedback für das Bewegen des Cursors und Mausklicks geben.
+
+* Zusätzlicher Kontexttext mit dem HTML-Titelattribut hinzugefügt.
+
+* Gestaltete Schaltflächen, die leicht erkennbar sind (sowohl in skeuomorphen als auch in flachen Designstilen), indem sie Kästchenformen, Rahmen, Hover und aktive Zustände verwenden.
+
+Verwenden Sie Breadcrumbs, um anzuzeigen, wo sich ein Benutzer befindet und wie groß die Website ist
+
+Breadcrumbs werden mithilfe von ungeordneten Listen in HTML mit benutzerdefiniertem CSS-Stil implementiert
+
+* Es gibt drei Arten von "Breadcrumbs":
+
+    * Standort - basierend auf der hierarchischen Struktur der Website
+
+    * Attribut - basierend auf Attributen der aktuellen Seite oder des aktuellen Elements
+
+    * Pfad - einzigartig für die Reise eines Benutzers auf der Website
+
+* Pfadbasierte Breadcrumbs können verwirrend sein, verwenden Sie sie nur bei Bedarf
+
+* Stellen Sie sicher, dass Breadcrumbs einen Mehrwert bringen, bevor Sie sie zu einer Website hinzufügen
