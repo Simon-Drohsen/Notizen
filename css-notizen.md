@@ -192,13 +192,13 @@
 
 * CSS-Übergänge bestehen aus 4 Komponenten:
 
-* Eine Eigenschaft, die übergehen wird.
+    * Eine Eigenschaft, die übergehen wird.
 
-* Die Dauer, die beschreibt, wie lange der Übergang dauert.
+    * Die Dauer, die beschreibt, wie lange der Übergang dauert.
 
-* Die Verzögerung zum Anhalten, bevor der Übergang stattfindet.
+    * Die Verzögerung zum Anhalten, bevor der Übergang stattfindet.
 
-* Die Timing-Funktion, die die Beschleunigung des Übergangs beschreibt.
+    * Die Timing-Funktion, die die Beschleunigung des Übergangs beschreibt.
 
 * Die Größe von Inhalten auf einer Website kann relativ zu anderen Elementen auf der Seite mithilfe von relativen Maßen angepasst werden.
 
@@ -246,7 +246,9 @@
 
 * Responsiv gestaltete Webseiten können erstellt werden, indem Variablen mit Medienabfragen kombiniert werden.
 
-<h2>CSS-Funktionen</h2>Variablen verringern die Notwendigkeit, Eigenschaftswerte zu wiederholen, und machen CSS-Code leichter lesbar.
+<h2>CSS-Funktionen</h2>
+
+* Variablen verringern die Notwendigkeit, Eigenschaftswerte zu wiederholen, und machen CSS-Code leichter lesbar.
 
 * Funktionen sind eine Art CSS-Wert, der anstelle eines hartcodierten Werts in eine CSS-Eigenschaft eingefügt wird
 
