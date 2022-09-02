@@ -39,3 +39,37 @@
 * Use built-in methods to do more complex math.
 
 * Use documentation to look new things up.
+
+* How to save char and string values to a variable.
+
+* Use the addition symbol (+) to concatenate strings.
+
+* Interpolate strings for easier string construction.
+
+* Find information about a string using .Length and .IndexOf().
+
+* Grab characters and parts of strings using bracket notation and .Substring().
+
+* Use built-in methods such as .ToUpper() and .ToLower() to manipulate strings.
+
+<h2>Comparison operators include:</h2>
+
+* Equals ==: returns true if the value to the left is equal to the value to the right.
+
+* Inequality operator !=: returns true if the two values are not equal.
+
+* Less than <: returns true if the value to the left is less than the value to the right.
+
+* Greater than >: returns true if the value to the left is more than the value to the right.
+
+* Less than or equal to <=: returns true if the value to the left is less than or equal to the value on the right.
+
+* Greater than or equal to >=: returns true if the value to the left is more than or equal to the value to the right.
+
+* How to define variables with a bool data type
+
+* How to use comparison operators with different data types to return boolean values
+
+* What a truth table is and how to read one
+
+* How to use logical operators to compare boolean values and expressions
