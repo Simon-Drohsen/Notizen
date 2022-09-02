@@ -113,3 +113,23 @@
 * If a method returns no type, its return type is void.
 
 * out parameters can be used to return multiple values from a method.
+
+<h3>Expression-bodied definitions can be used for one-line method bodies:</h3>
+
+bool isEven(int num) => num % 2 == 0;
+
+<h3>Lambda expressions can be used to create an anonymous method:</h3>
+
+
+bool hasEvenNumbers = Array.Exists(numbers, (int num) => num % 2 == 0 );
+
+<h2>You learned two “sub-shortcuts” within lambda expressions:<h2>
+
+<h3>You can remove the parameter type if it can be inferred:</h3>
+
+
+bool hasEvenNumbers = Array.Exists(numbers, (num) => num % 2 == 0 );
+
+<h3>You can remove the parentheses if there is one parameter:</h3>
+
+bool hasEvenNumbers = Array.Exists(numbers, num => num % 2 == 0 );
