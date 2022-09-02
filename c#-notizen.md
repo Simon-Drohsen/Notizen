@@ -1,1 +1,41 @@
 <h1>C# Notizen</h1>
+
+* C# is used to make interactive websites, mobile apps, video games, augmented and virtual reality (AR and VR), back-end services, and desktop applications
+
+* .NET generally refers to the family of programs and commands that let you make applications with C#
+
+* C# and .NET jobs are out there! Build video games with Unity, build websites with ASP.NET…The skills you learn on Codecademy can open new doors
+
+* The command Console.WriteLine() prints text to the console
+
+* The command Console.ReadLine() captures user input in the console
+
+* Comments are lines of code that are ignored by your computer; they’re intended to be read by developers instead. Make them with // or /* and */
+
+* int - whole numbers, like: 1, -56, 948
+
+* double - decimal numbers, like: 239.43909, -660.01
+
+* char - single characters, like: “a”, “&”, “£”
+
+* string - string of characters, like: “dog”, “hello world”
+
+* bool - boolean values, like: true or false
+
+* Math.Abs()—will find the absolute value of a number. Example: Math.Abs(-5) returns 5.
+
+* Math.Sqrt()—will find the square root of a number. Example: Math.Sqrt(16) returns 4.
+
+* Math.Floor()—will round the given double or decimal down to the nearest whole number. Example: Math.Floor(8.65) returns 8.
+
+* Math.Min()—returns the smaller of two numbers. Example: Math.Min(39, 12) returns 12.
+
+* Use arithmetic operators to write expressions.
+
+* Combine operators together to write more concise programs.
+
+* Use the modulo operator (%) to find remainders.
+
+* Use built-in methods to do more complex math.
+
+* Use documentation to look new things up.
