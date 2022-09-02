@@ -30,7 +30,7 @@
 
 * Math.Min()—returns the smaller of two numbers. Example: Math.Min(39, 12) returns 12.
 
-<h2>Learn how to:</h2>
+<h2>You learned how to:</h2>
 
 * Use arithmetic operators to write expressions.
 
@@ -121,15 +121,55 @@ bool isEven(int num) => num % 2 == 0;
 <h3>Lambda expressions can be used to create an anonymous method:</h3>
 
 
-bool hasEvenNumbers = Array.Exists(numbers, (int num) => num % 2 == 0 );
+* bool hasEvenNumbers = Array.Exists(numbers, (int num) => num % 2 == 0 );
 
 <h2>You learned two “sub-shortcuts” within lambda expressions:<h2>
 
 <h3>You can remove the parameter type if it can be inferred:</h3>
 
 
-bool hasEvenNumbers = Array.Exists(numbers, (num) => num % 2 == 0 );
+* bool hasEvenNumbers = Array.Exists(numbers, (num) => num % 2 == 0 );
 
 <h3>You can remove the parentheses if there is one parameter:</h3>
 
-bool hasEvenNumbers = Array.Exists(numbers, num => num % 2 == 0 );
+* bool hasEvenNumbers = Array.Exists(numbers, num => num % 2 == 0 );
+
+* Data structures and how we can use them to better organize our data
+
+* How to build, access, and edit values in arrays
+
+* How to use Array class built-in methods, including Sort(), IndexOf(), and Find()
+
+* A loop is a structure in programming where the instructions are written once, but a computer can execute them multiple times
+
+* Each execution of those instructions is called an iteration
+
+* while loops repeat until a condition changes
+
+* do...while loops execute once, and then repeat until a condition changes
+
+* for loops repeat for a specified number of times
+
+* foreach loops repeat for each item in a collection
+
+* jump statements, like break, continue, and return are used to add additional control flow to loops
+
+<h2>You learned how to:</h2>
+
+* Define a class
+
+* Instantiate an object using new
+
+* Define fields, the pieces of data for each class
+
+* Define properties, the spokespeople for each field
+
+* Define automatic properties, the shorthand for making properties
+
+* Define methods, the actions a class can take
+
+* Define constructors, the special methods called when a class is instantiated
+
+* Overload constructors and reuse code with this
+
+* Control access to class members using public and private
