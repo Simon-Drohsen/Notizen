@@ -30,6 +30,8 @@
 
 * Math.Min()—returns the smaller of two numbers. Example: Math.Min(39, 12) returns 12.
 
+<h2>Learn how to:</h2>
+
 * Use arithmetic operators to write expressions.
 
 * Combine operators together to write more concise programs.
@@ -40,7 +42,7 @@
 
 * Use documentation to look new things up.
 
-* How to save char and string values to a variable.
+* Save char and string values to a variable.
 
 * Use the addition symbol (+) to concatenate strings.
 
@@ -66,10 +68,38 @@
 
 * Greater than or equal to >=: returns true if the value to the left is more than or equal to the value to the right.
 
-* How to define variables with a bool data type
+<h2>Learn:</h2>
 
-* How to use comparison operators with different data types to return boolean values
+* how to define variables with a bool data type
 
-* What a truth table is and how to read one
+* how to use comparison operators with different data types to return boolean values
 
-* How to use logical operators to compare boolean values and expressions
+* what a truth table is and how to read one
+
+* how to use logical operators to compare boolean values and expressions
+
+* using if, else if, and else keywords to write conditional statements
+
+* writing switch statements for situations where they are many condition
+
+* using ternary operators for shorter conditional statements
+
+* call a method with its name and parentheses: VisitPlanets();
+
+* store a method’s returned value in a variable: double result = Math.Round(3.14159, 2);
+
+* define a basic method with the following syntax: static void VisitPlanets() {}
+
+* every time an application is started, the Main() method is called.
+
+* Values passed to a method are called arguments. When defined in the method, they are parameters.
+
+* Method parameters can only be used within the method body.
+
+* Method parameters can be optional if given a default value using equals = syntax: static void VisitPlanets(int numberOfPlanets = 0)
+
+* When calling a method, pass arguments by position or by name. If using names, use the colon (:) syntax: VisitPlanets(numberOfPlanets: 9);
+
+* In method overloading, multiple methods can have the same name, as long as they have different method signatures.
+
+* A method signature is a method’s name and parameter types in order.
