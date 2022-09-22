@@ -1,14 +1,12 @@
 <h1>Css Notizen</h1>
 
-* The basic anatomy of CSS syntax written for both inline styles and stylesheets.
-
 * Die gewöhnlichsten CSS Begriffe sind: ruleset, selector, und declaration.
 
 * CSS "inline styles" können in einem HTML Dokument geschrieben werden wenn man das "style" Attribut verwendet. can be written inside the opening HTML tag using the style attribute.
 
 * "inline styles" können dafür verwendet werden um ein HTML Dokument zu stylen, aber es ist nicht die beste übung.
 
-* Ein "internal stylesheet" wird durch ein <style> Element geschrieben, das in einem <head> Element ist. und das in einem HTML Dokument.
+* Ein "internal stylesheet" wird durch ein \<style> Element geschrieben, das in einem \<head> Element ist. und das in einem HTML Dokument.
 
 * "internal stylesheets" können auch dazu verwendet werden um ein HTML Dokument zu stylen sind aber auch nicht die beste Übung.
 
@@ -16,7 +14,7 @@
 
 * "external stylesheets" sind der beste Ansatz um ein HTML Dokument zu stylen.
 
-* "external stylesheets" sind mit dem <link> Element verbunden zum HTML Dokument.
+* "external stylesheets" sind mit dem \<link>-Element verbunden zum HTML Dokument.
 
 * CSS kann HTML Elemente auswählen, wie zum Beispiel "type", "class", "ID","attribute".
 
@@ -146,7 +144,7 @@
 
 * Die Eigenschaft text-align ändert die horizontale Ausrichtung von Text.
 
-* Google Fonts bietet kostenlose Schriftarten, die in einer HTML-Datei mit dem <link>-Tag oder der @font-face-Eigenschaft verwendet werden können.
+* Google Fonts bietet kostenlose Schriftarten, die in einer HTML-Datei mit dem \<link>-Tag oder der @font-face-Eigenschaft verwendet werden können.
 
 * Lokale Schriftarten können einem Dokument mit der Eigenschaft @font-face und dem Pfad zur Quelle der Schriftart hinzugefügt werden.
 
@@ -204,7 +202,7 @@
 
 * Die Einheit der em-Größen-Schriftart relativ zur Schriftgröße eines übergeordneten Elements.
 
-* Die Einheit der Rem-Größen-Schriftart relativ zur Schriftgröße eines Wurzelelements. Dieses Wurzelelement ist das <html>-Element.
+* Die Einheit der Rem-Größen-Schriftart relativ zur Schriftgröße eines Wurzelelements. Dieses Wurzelelement ist das \<html>-Element.
 
 * Prozentsätze werden häufig verwendet, um Eigenschaften von Boxmodellen wie Breite, Höhe, Polsterung oder Rand eines Elements zu skalieren.
 
@@ -280,7 +278,7 @@
 
 * Interaktive Elemente sollten ein Zeichen haben das sie Interaktiv sind wie unterstrichen oder so.
 
-* Abgekürzte Sachen sind immer in einem <abbr> Element.
+* Abgekürzte Sachen sind immer in einem \<abbr> Element.
 
 * "visibility: hidden" oder "display: none" verstecken Texte von allen Usern.
 
