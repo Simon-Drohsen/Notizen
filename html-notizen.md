@@ -6,27 +6,27 @@
 
 * HTML Elemente können ineinander verschachtelt werden. Das inere HTML Element nennt man Kind-Element und das äusere nennt man Eltern-Element.
 
-* Alles was sichtbar sein sollte ist zwischen den Anfangs und End Tags von <body>.
+* Alles was sichtbar sein sollte ist zwischen den Anfangs und End Tags von body.
 
 * Titel und Überschriften, h1 bis h6 Tags, werden dazu gebraucht verschiedene Sektionen zu unterteilen.
 
-* <p>, <span> und <div> Tags spezifizeiren Text oder Blöcke.
+* p, span und div Tags spezifizieren Text oder Blöcke.
 
-* Die <em> und <strong> Tags um einem Text Eigenschaften zu verleihen (wie Fett oder andere).
+* Die em und strong Tags um einem Text Eigenschaften zu verleihen (wie Fett oder andere).
 
-* Textumbrüche erstellt man mit dem <br> Tag.
+* Textumbrüche erstellt man mit dem br Tag.
 
-* Geordnete Listen (<ol>) sind numeriert und ungeordnete Listen (<ul>) haben Punkte als Marker, keine Zahlen.
+* Geordnete Listen (ol) sind numeriert und ungeordnete Listen (ul) haben Punkte als Marker, keine Zahlen.
 
-* Bilder (<img>) und Videos (<video>) können mit einer existierenden Quelle verbunden werden.
+* Bilder (img) und Videos (video) können mit einer existierenden Quelle verbunden werden.
 
-* Das <table> Element erstellt eine Tabelle.
+* Das table> Element erstellt eine Tabelle.
 
-* Das <tr> Element fügt Reihen in die Tabelle hinzu.
+* Das tr Element fügt Reihen in die Tabelle hinzu.
 
-* Um Daten in die Tabelle einzufügen, benutzen sie das <td> Element.
+* Um Daten in die Tabelle einzufügen, benutzen sie das td Element.
 
-* Tabellen-Headings Zeigen an was in welcher Spalte steht.Sie werden mit dem <th> Element gemacht.
+* Tabellen-Headings Zeigen an was in welcher Spalte steht.Sie werden mit dem th Element gemacht.
 
 * Tabellendaten können mithilfe des Attributs "colspan" spaltenübergreifend sein.
 
@@ -34,15 +34,15 @@
 
 * Tabellen können in 3 Haupt Teile geteil werden: einen Head, einen body, und einen footer.
 
-* Ein Tabbellen-Head knn mit dem <thead> Element gemacht werden.
+* Ein Tabbellen-Head knn mit dem thead Element gemacht werden.
 
-* Ein Tabbellen-Body knn mit dem <tbody> Element gemacht werden.
+* Ein Tabbellen-Body knn mit dem tbody Element gemacht werden.
 
-* Ein Tabbellen-Footer knn mit dem <footer> Element gemacht werden.
+* Ein Tabbellen-Footer knn mit dem footer Element gemacht werden.
 
-* Die Funktion eines <form> Elements ist, dem Benutzer zu erlauben etwas zu schreiben (wie ein Feedback oder so).
+* Die Funktion eines form Elements ist, dem Benutzer zu erlauben etwas zu schreiben (wie ein Feedback oder so).
 
-* Um Felder zu erstellen brauchen wir das <input> Element.
+* Um Felder zu erstellen brauchen wir das input Element.
 
 * Mit dem "type"-Attribut kann man einstellen was für eine Art Text man reinschreiben sollte.
 
