@@ -4,7 +4,7 @@
 
 * Die meisten HTML Elemente enthalten Anfangs und End Tags mit text oder anderen HTML Tags zwischen drin.
 
-* HTML Elemente können ineinander verschachtelt werden. Das inere HTML Element nennt man Kind-Element und das äusere nennt man Eltern-Element.
+* HTML Elemente können ineinander verschachtelt werden. Das inere HTML Element nennt man Child-Element und das äusere nennt man Parent-Element.
 
 * Alles was sichtbar sein sollte ist zwischen den Anfangs und End Tags von body.
 
