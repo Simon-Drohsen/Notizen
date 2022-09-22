@@ -1,95 +1,91 @@
 <h1>Command Line</h1>
 
-<h2>A filesystem organizes a computer’s files and directories into a tree structure:</h2>
+<h2>Ein Datensystem organisiert Alle Dateien auf dem Computer in einer Baumstruktur:</h2>
 
-* The first directory in the filesystem is the root directory. It is the parent of all other directories and files in the filesystem.
+* Der erste Ordner ist der Parent Ordner von allen Ordnern.
 
-* Each parent directory can contain more child directories and files. In the filesystem on the right, blog/ is the parent of 2014/, 2015/, and hardware.txt.
+* Jeder Parent Ordner kan viele Child Ordner oder Dateien haben.
 
-* Each directory can contain more files and child directories. The parent-child relationship continues as long as directories and files are nested.
+* Mit Command Line kann man direkt mit dem Computer kommunizieren (auf Mac Terminal).
 
-* The command line is a text interface for the computer’s operating system. To access the command line, we use the terminal.
+<h2>Man kann mit Command Line durch alle Ordner schauen</h2>
 
-* A filesystem organizes a computer’s files and directories into a tree structure. It starts with the root directory. Each parent directory can contain more child directories and files.
+* Die funktion von pwd ist dir zu sagen in welchem Ordner du bist.
 
-<h2>From the command line, you can navigate through files and folders on your computer:</h2>
+* Die funktion von ls ist aufzulisten was alles in deinem Ordner ist.
 
-* pwd outputs the name of the current working directory.
+* Die funktion von cd rtansportiert dich in dden Ordner den du angibst.
 
-* ls lists all files and directories in the working directory.
+* Die funktion von mkdir macht einen neuen Ordner.
 
-* cd switches you into the directory you specify.
+* Die funktion von touch macht auch einen neuen Ordner.
 
-* mkdir creates a new directory in the working directory.
+<h2>Man kann Helper Commands brauchen um sich das navigieren einfacher zu machen:</h2>
 
-* touch creates a new file inside the working directory.
+* clear "reinigt" das Terminal.
 
-<h2>You can use helper commands to make navigation easier:</h2>
+* tab beendet automatisch das Wort.
 
-* clear clears the terminal
+* ↑ und ↓ erlauben dir zwischen deinen geschriebenen Commands zu switchen.
 
-* tab autocompletes the name of a file or directory
+<h2>Options modifizieren normale Commands:</h2>
 
-* ↑ and ↓ allow you to cycle through previous commands
+* Die funktion von ls -a ist aufzulisten was alles in deinem Ordner ist, inklusive versteckte Ordner und Dateien.
 
-<h2>Options modify the behavior of commands:</h2>
+* Die funktion von ls -l ist aufzulisten was alles in deinem Ordner ist, aber in einem langen Format.
 
-* ls -a lists all contents of a directory, including hidden files and directories
+* Die funktion von ls -t ist aufzulisten was alles in deinem Ordner ist und es mit dem letzten Bearbeitungsdatum zu sortieren.
 
-* ls -l lists all contents in long format
+* Mehrere Optionen können kombiniert werden wie zum Beispiel ls -alt. 
 
-* ls -t orders files and directories by the time they were last modified
+<h2>From the command line, you can also copy, move, and remove files and directories:</h2>
 
-<h2>Multiple options can be used together, like ls -alt</h2>
+* cp kopiert Dateien.
 
-* From the command line, you can also copy, move, and remove files and directories:
+* mv verschiebt und unbenennt Dateien.
 
-* cp copies files
+* rm löscht Dateien.
 
-* mv moves and renames files
+* rm -r löscht Ordner.
 
-* rm removes files
+* Redirection leitet den standart input, output und Error um.
 
-* rm -r removes directories
+<h2>Die Gewöhnlichen Redirection Behfele sind:</h2>
 
-* Redirection reroutes standard input, standard output, and standard error.
+* \> leitet einen Standart output von einem Command in eine Datei, und überschreibt den alten Content mit dem neuen.
 
-<h2>The common redirection commands are:</h2>
+* \>\> leitet einen Standart output von einem Command in eine Datei, und fügt neuen Content zum alten Hinzu.
 
-* (Pfeil nach rechts) redirects standard output of a command to a file, overwriting previous content.
+* < leitet einen Standart input in einen Command
 
-* (2 Pfeile nach rechts) redirects standard output of a command to a file, appending new content to old content.
+* | leitet einen Standart output von einem Command in einen anderen Command.
 
-* < redirects standard input to a command.
+<h2>Ein paar Commands die mächtig sind mit Redirection CommandsA number of other commands are powerful when combined with redirection commands:</h2>
 
-* | redirects standard output of a command to another command.
+* sort: Sortiert Text Linien alphabetisch.
 
-<h2>A number of other commands are powerful when combined with redirection commands:</h2>
+* uniq: filtert Duplikate aus dem Text.
 
-* sort: sorts lines of text alphabetically.
+* grep: Sucht nach einem Textmuster und zeigt es an.
 
-* uniq: filters duplicate, adjacent lines of text.
+* sed : Sucht nach einem Textmuster, modifizeirt esund zeigt es an.
 
-* grep: searches for a text pattern and outputs it.
+* Die Umgebung bezieht sich auf die Präferenzen und Einstellungen des aktuellen Benutzers.
 
-* sed : searches for a text pattern, modifies it, and outputs it.
+* Der Nano Editor ist der Command Line Editor für die Umgebung.
 
-* The environment refers to the preferences and settings of the current user.
+* ~/.bash_profile ist der Ort wo dieUmgebungs Einstellungen gespeichert sind. Man kann sie im Nano Editor bearbeiten.
 
-* The nano editor is a command line text editor used to configure the environment.
+* Umgebungs Variabeln sind Variabeln die dazu gebraucht werden können um Informationen quer über alle Commands und Programme zu speichern.
 
-* ~/.bash_profile is where environment settings are stored. You can edit this file with nano.
+* export VARIABLE="Value" setzt ein export Variable fest.
 
-* Environment variables are variables that can be used across commands and programs and hold information about the environment.
+* USER Ist der Name des zurzeitigen Benutzers.
 
-* export VARIABLE="Value" sets and exports an environment variable.
+* PS1 Ist die Eingabeaufforderung.
 
-* USER is the name of the current user.
+* HOME ist der Home Ordner. Er ist meistens nicht bearbeitet.
 
-* PS1 is the command prompt.
+* PATH gibt eine durch einen Doppelpunkt getrennte Liste von Dateipfaden zurück. Es wird in fortgeschrittenen Fällen angepasst.
 
-* HOME is the home directory. It is usually not customized.
-
-* PATH returns a colon : separated list of file paths. It is customized in advanced cases.
-
-* env returns a list of environment variables. You can redirect the output, using grep to select the variable you want to see.
+* ENV gibt eine Liste von Umgebungsvariablen zurück. Sie können den output umleiten, indem Sie mit grep die Variable auswählen, die Sie sehen möchten.
