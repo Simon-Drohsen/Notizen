@@ -8,7 +8,7 @@
 
 * Alles was sichtbar sein sollte ist zwischen den Anfangs und End Tags von <body>.
 
-* Titel und Überschriften, <h1> bis <h6> Tags, werden dazu gebraucht verschiedene Sektionen zu unterteilen.
+* Titel und Überschriften, h1 bis h6 Tags, werden dazu gebraucht verschiedene Sektionen zu unterteilen.
 
 * <p>, <span> und <div> Tags spezifizeiren Text oder Blöcke.
 
