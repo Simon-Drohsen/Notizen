@@ -1,4 +1,4 @@
-# Notizen-Inhaltsverzeichnis
+# Notizen Inhaltsverzeichnis
 
 1. [Alle Infos zu Git und GitHub](https://github.com/Osaaro/Notizen/blob/main/alle-infos-zu-git-und-github.md)
 2. [Wie fängt man an mit Github?](https://github.com/Osaaro/Notizen/blob/main/wenn-man-mit-github-arbeitet-faengt-man-an-mit-folgenden-schriten-an.md)
