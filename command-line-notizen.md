@@ -58,7 +58,7 @@
 
 * (Pfeil nach rechts) redirects standard output of a command to a file, overwriting previous content.
 
-* (Pfeil nach rechts) redirects standard output of a command to a file, appending new content to old content.
+* (2 Pfeile nach rechts) redirects standard output of a command to a file, appending new content to old content.
 
 * < redirects standard input to a command.
 
