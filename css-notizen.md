@@ -190,7 +190,7 @@
 
 * grid-auto-flow gibt an, in welcher Richtung implizite Elemente erstellt werden sollen.
 
-* CSS-Übergänge bestehen aus 4 Komponenten:
+ <h2>CSS-Übergänge bestehen aus 4 Komponenten:</h2>
 
     * Eine Eigenschaft, die übergehen wird.
 
@@ -304,11 +304,11 @@
 
 * Gestaltete Schaltflächen, die leicht erkennbar sind (sowohl in skeuomorphen als auch in flachen Designstilen), indem sie Kästchenformen, Rahmen, Hover und aktive Zustände verwenden.
 
-Verwenden Sie Breadcrumbs, um anzuzeigen, wo sich ein Benutzer befindet und wie groß die Website ist
+* Verwenden Sie Breadcrumbs, um anzuzeigen, wo sich ein Benutzer befindet und wie groß die Website ist
 
-Breadcrumbs werden mithilfe von ungeordneten Listen in HTML mit benutzerdefiniertem CSS-Stil implementiert
+* Breadcrumbs werden mithilfe von ungeordneten Listen in HTML mit benutzerdefiniertem CSS-Stil implementiert
 
-* Es gibt drei Arten von "Breadcrumbs":
+<h2>Es gibt drei Arten von "Breadcrumbs":</h2>
 
     * Standort - basierend auf der hierarchischen Struktur der Website
 
