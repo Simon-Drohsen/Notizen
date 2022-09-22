@@ -9,6 +9,6 @@
 7. [Cybersecurity](https://github.com/Osaaro/Notizen/blob/main/cybersecurity.md)
 8. [HTML](https://github.com/Osaaro/Notizen/blob/main/html-notizen.md)
 9. [CSS](https://github.com/Osaaro/Notizen/blob/main/css-notizen.md)
-10. [SASS(SCSS)](https://github.com/Osaaro/Notizen/blob/main/sass(scss)-notizen.md))
+10. [SASS(SCSS)](https://github.com/Osaaro/Notizen/blob/main/sass(scss)-notizen.md)
 11. [Command Line](https://github.com/Osaaro/Notizen/blob/main/command-line-notizen.md)
 12. [C#](https://github.com/Osaaro/Notizen/blob/main/c%23-notizen.md)
