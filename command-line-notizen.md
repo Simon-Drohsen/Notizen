@@ -56,9 +56,9 @@
 
 <h2>The common redirection commands are:</h2>
 
-* > redirects standard output of a command to a file, overwriting previous content.
+* (Pfeil nach rechts) redirects standard output of a command to a file, overwriting previous content.
 
-* >> redirects standard output of a command to a file, appending new content to old content.
+* (Pfeil nach rechts) redirects standard output of a command to a file, appending new content to old content.
 
 * < redirects standard input to a command.
 
