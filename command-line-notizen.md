@@ -1,6 +1,6 @@
 <h1>Command Line</h1>
 
-<h2>A filesystem organizes a computer’s files and directories into a tree structure:<h2>
+<h2>A filesystem organizes a computer’s files and directories into a tree structure:</h2>
 
 * The first directory in the filesystem is the root directory. It is the parent of all other directories and files in the filesystem.
 
