@@ -58,17 +58,17 @@
 
 * Stellt man das "type"-Attribut auf "text" ein hat man so viele Radio-Buttons wie man will (single chioce A1ntwort Felder).
 
-* stellt man das "typ"-Attribut auf "list" ein werden die Elemente <input> und <datalist>, wenn sie das gleiche "id"-Attribut haben, miteinander verbunden.
+* stellt man das "typ"-Attribut auf "list" ein werden die Elemente input und datalist, wenn sie das gleiche "id"-Attribut haben, miteinander verbunden.
 
 * Stellt man das "type"-Attribut auf "submit" erstellt man einen Einsenden Knopf.
 
-* Ein <select> Element wird mit <option> Elementen gefüllt und rendert eine Dropdown-Listenauswahl.
+* Ein select Element wird mit option Elementen gefüllt und rendert eine Dropdown-Listenauswahl.
 
-* Ein <datalist> Element wird mit <option> Elementen gefüllt und arbeitet mit einem <input>, um Auswahlmöglichkeiten zu durchsuchen.
+* Ein datalist Element wird mit option Elementen gefüllt und arbeitet mit einem input, um Auswahlmöglichkeiten zu durchsuchen.
 
-* Ein <textarea> Element ist ein Texteingabefeld, das einen anpassbaren Bereich hat.
+* Ein textarea Element ist ein Texteingabefeld, das einen anpassbaren Bereich hat.
 
-* Wenn ein <Formular> eingesendet werden Eingaben akzeptiert, und der "value" dieser Felder als "name=value-Pair" gesendet.
+* Wenn ein Formular eingesendet werden Eingaben akzeptiert, und der "value" dieser Felder als "name=value-Pair" gesendet.
 
 * Client-side validations happen in the browser before information is sent to a server.
 
@@ -78,26 +78,26 @@
 
 * Das Zuweisen einer Regex zu einem Muster passt die Eingabe an die bereitgestellte Regex an.
 
-* Wenn die Gültigkeitserklärung eines <form>'s nicht stimmt,bekommt der Benutzter eine Nachricht wieso sein <form> nicht eingeschickt werden konnte.
+* Wenn die Gültigkeitserklärung eines form's nicht stimmt,bekommt der Benutzter eine Nachricht wieso sein form nicht eingeschickt werden konnte.
 
-* <header>, <nav> , <main> und <footer> bilden die Grundstruktur der Webseite.
+* header, nav , main und footer bilden die Grundstruktur der Webseite.
 
-* <section> definiert Elemente in einem Dokument, wie Kapitel, Überschriften oder andere Bereiche des Dokuments mit demselben Thema.
+* section definiert Elemente in einem Dokument, wie Kapitel, Überschriften oder andere Bereiche des Dokuments mit demselben Thema.
 
-* <article> enthält Inhalte, die für sich genommen sinnvoll sind, wie Artikel, Blogs, Kommentare usw.
+* article enthält Inhalte, die für sich genommen sinnvoll sind, wie Artikel, Blogs, Kommentare usw.
 
-* <aside> enthält Informationen, die sich auf den Hauptinhalt beziehen, aber nicht erforderlich sind, um die dominierenden Informationen zu verstehen.
+* aside enthält Informationen, die sich auf den Hauptinhalt beziehen, aber nicht erforderlich sind, um die dominierenden Informationen zu verstehen.
 
-* <figure> enthält alle Arten von Medien.
+* figure enthält alle Arten von Medien.
 
-* <figcaption> wird verwendet, um die Medien in <figure> zu beschreiben.
+* figcaption wird verwendet, um die Medien in figure zu beschreiben.
 
-* Die Elemente <video>, <embed> und <audio> werden für Mediendateien verwendet.
+* Die Elemente video, embed und audio>werden für Mediendateien verwendet.
 
 
 <h2>Bootstrap</h2>
 
-* Es müssen mehrere Links verwendet werden um ein Bootstrap zu benutzen (und 2 <meta> Tags).
+* Es müssen mehrere Links verwendet werden um ein Bootstrap zu benutzen (und 2 meta Tags).
 
 * Bootstrap 4 hat ein Grid system das Flexbox benutzt.
 
@@ -115,7 +115,7 @@
 
 * Man kann mehrere Klassen zu einer Spalte hinzufügen, damit man die Breite an spezifischen "Breakpoints" einstellen kann.
 
-* Die Verwendung von semantischen HTML-Elementen, wann immer möglich (z. B. <header> anstelle von <div id="header">), ermöglicht Screenreader-Benutzern eine effizientere Navigation auf Ihrer Website.
+* Die Verwendung von semantischen HTML-Elementen, wann immer möglich (z. B. header anstelle von div id="header"), ermöglicht Screenreader-Benutzern eine effizientere Navigation auf Ihrer Website.
 
 * Das Rollenattribut wird verwendet, um Informationen über die Rolle bestimmter Elemente zu übermitteln.
 
