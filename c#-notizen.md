@@ -1,175 +1,168 @@
 <h1>C# Notizen</h1>
 
-* C# is used to make interactive websites, mobile apps, video games, augmented and virtual reality (AR and VR), back-end services, and desktop applications
+* C# wird verwendet, um interaktive Websites, mobile Apps, Videospiele, erweiterte und virtuelle Realität (AR und VR), Back-End-Dienste und Desktop-Anwendungen zu erstellen.
 
-* .NET generally refers to the family of programs and commands that let you make applications with C#
+* .NET bezieht sich im Allgemeinen auf die Familie von Programmen und Befehlen, mit denen mann Anwendungen mit C# erstellen können.
 
-* C# and .NET jobs are out there! Build video games with Unity, build websites with ASP.NET…The skills you learn on Codecademy can open new doors
+* Der Befehl Console.WriteLine() gibt Text auf der Konsole aus.
 
-* The command Console.WriteLine() prints text to the console
+* Der Befehl Console.ReadLine() erfasst Benutzereingaben in der Konsole.
 
-* The command Console.ReadLine() captures user input in the console
+* Kommentare sind Codezeilen, die von Ihrem Computer ignoriert werden. Sie sollen stattdessen von Entwicklern gelesen werden. Mann kann sie mit // oder /* und */ machen.
 
-* Comments are lines of code that are ignored by your computer; they’re intended to be read by developers instead. Make them with // or /* and */
+<h2>Ein paar Befehle sind:</h2>
 
-* int - whole numbers, like: 1, -56, 948
+* int - ganze Zahlen, wie: 1, -56, 948
 
-* double - decimal numbers, like: 239.43909, -660.01
+* Double - Dezimalzahlen, wie: 239.43909, -660.01
 
-* char - single characters, like: “a”, “&”, “£”
+* char - einzelne Zeichen, wie: „a“, „&“, „£“
 
-* string - string of characters, like: “dog”, “hello world”
+* Zeichenfolge - Zeichenkette, wie: „Hund“, „Hallo Welt“
 
-* bool - boolean values, like: true or false
+* bool - boolesche Werte, wie: wahr oder falsch
 
-* Math.Abs()—will find the absolute value of a number. Example: Math.Abs(-5) returns 5.
+* Math.Abs() – findet den absoluten Wert einer Zahl. Beispiel: Math.Abs(-5) gibt 5 zurück.
 
-* Math.Sqrt()—will find the square root of a number. Example: Math.Sqrt(16) returns 4.
+* Math.Sqrt() – findet die Quadratwurzel einer Zahl. Beispiel: Math.Sqrt(16) gibt 4 zurück.
 
-* Math.Floor()—will round the given double or decimal down to the nearest whole number. Example: Math.Floor(8.65) returns 8.
+* Math.Floor() – rundet das angegebene Double oder die Dezimalzahl auf die nächste ganze Zahl ab. Beispiel: Math.Floor(8.65) gibt 8 zurück.
 
-* Math.Min()—returns the smaller of two numbers. Example: Math.Min(39, 12) returns 12.
+* Math.Min() – gibt die kleinere von zwei Zahlen zurück. Beispiel: Math.Min(39, 12) gibt 12 zurück.
 
-<h2>You learned how to:</h2>
+<h2>Hier erfährt man:</h2>
 
-* Use arithmetic operators to write expressions.
+* Verwende arithmetische Operatoren, um Ausdrücke zu schreiben.
 
-* Combine operators together to write more concise programs.
+* Kombiniere Operatoren, um präzisere Programme zu schreiben.
 
-* Use the modulo operator (%) to find remainders.
+* Verwende den Modulo-Operator (%), um Reste zu finden.
 
-* Use built-in methods to do more complex math.
+* Verwende integrierte Methoden, um komplexere Berechnungen durchzuführen.
 
-* Use documentation to look new things up.
+* Verwende die Dokumentation, um neue Dinge nachzuschlagen.
 
-* Save char and string values to a variable.
+* Speichere Zeichen- und Zeichenfolgenwerte in einer Variablen.
 
-* Use the addition symbol (+) to concatenate strings.
+* Verwende das Additionssymbol (+), um Zeichenfolgen zu verketten.
 
-* Interpolate strings for easier string construction.
+* Interpoliere Saiten für eine einfachere Saitenkonstruktion.
 
-* Find information about a string using .Length and .IndexOf().
+* Finde Informationen über einen String mit .Length und .IndexOf().
 
-* Grab characters and parts of strings using bracket notation and .Substring().
+* Erfasse Zeichen und Teile von Strings mit Klammern und .Substring().
 
-* Use built-in methods such as .ToUpper() and .ToLower() to manipulate strings.
+* Verwende integrierte Methoden wie .ToUpper() und .ToLower(), um Zeichenfolgen zu bearbeiten.
 
-<h2>Comparison operators include:</h2>
+<h2>Zu den Vergleichsoperatoren gehören:</h2>
 
-* Equals ==: returns true if the value to the left is equal to the value to the right.
+* Gleich ==: gibt wahr zurück, wenn der Wert links gleich dem Wert rechts ist.
 
-* Inequality operator !=: returns true if the two values are not equal.
+* Ungleichheitsoperator !=: gibt wahr zurück, wenn die beiden Werte nicht gleich sind.
 
-* Less than <: returns true if the value to the left is less than the value to the right.
+* Kleiner als <: gibt wahr zurück, wenn der linke Wert kleiner als der rechte Wert ist.
 
-* Greater than >: returns true if the value to the left is more than the value to the right.
+* Größer als >: gibt wahr zurück, wenn der linke Wert größer als der rechte Wert ist.
 
-* Less than or equal to <=: returns true if the value to the left is less than or equal to the value on the right.
+* Kleiner oder gleich <=: gibt wahr zurück, wenn der linke Wert kleiner oder gleich dem rechten Wert ist.
 
-* Greater than or equal to >=: returns true if the value to the left is more than or equal to the value to the right.
+* Größer als oder gleich >=: gibt wahr zurück, wenn der linke Wert größer oder gleich dem rechten Wert ist.
 
-<h2>You learned:</h2>
+<h2>Hier erfährt man:</h2>
 
-* how to define variables with a bool data type
+* die Schlüsselwörter if, else if und else verwenden, um bedingte Anweisungen zu schreiben.
 
-* how to use comparison operators with different data types to return boolean values
+* Switch-Anweisungen für Situationen schreiben, in denen es viele Bedingungen gibt.
 
-* what a truth table is and how to read one
+* Verwenden von ternären Operatoren für kürzere bedingte Anweisungen.
 
-* how to use logical operators to compare boolean values and expressions
+* Rufe eine Methode mit ihrem Namen und Klammern auf: VisitPlanets();.
 
-* using if, else if, and else keywords to write conditional statements
+* den Rückgabewert einer Methode in einer Variablen speichern: double result = Math.Round(3.14159, 2);.
 
-* writing switch statements for situations where they are many condition
+* Definiere eine grundlegende Methode mit der folgenden Syntax: static void VisitPlanets() {}.
 
-* using ternary operators for shorter conditional statements
+* Jedes Mal, wenn eine Anwendung gestartet wird, wird die Methode Main() aufgerufen.
 
-* call a method with its name and parentheses: VisitPlanets();
+* An eine Methode übergebene Werte werden als Argumente bezeichnet. Wenn sie in der Methode definiert sind, sind sie Parameter.
 
-* store a method’s returned value in a variable: double result = Math.Round(3.14159, 2);
+* Methodenparameter können nur innerhalb des Methodenkörpers verwendet werden.
 
-* define a basic method with the following syntax: static void VisitPlanets() {}
+* Methodenparameter können optional sein, wenn man einen Standardwert mit equals = Syntax erhalten: static void VisitPlanets(int numberOfPlanets = 0).
 
-* every time an application is started, the Main() method is called.
+* Übergebe beim Aufrufen einer Methode Argumente nach Position oder nach Namen. Wenn mann Namen verwenden, verwende die Doppelpunkt-Syntax (:): VisitPlanets(numberOfPlanets: 9);.
 
-* Values passed to a method are called arguments. When defined in the method, they are parameters.
+* Beim Überladen von Methoden können mehrere Methoden denselben Namen haben, solange mann unterschiedliche Methodensignaturen haben.
 
-* Method parameters can only be used within the method body.
+* Eine Methodensignatur besteht aus dem Namen einer Methode und den Parametertypen in dieser Reihenfolge.
 
-* Method parameters can be optional if given a default value using equals = syntax: static void VisitPlanets(int numberOfPlanets = 0)
+<h2>Du hast gelernt:</h2>
 
-* When calling a method, pass arguments by position or by name. If using names, use the colon (:) syntax: VisitPlanets(numberOfPlanets: 9);
+* Methoden geben Werte mit dem Schlüsselwort return zurück.
 
-* In method overloading, multiple methods can have the same name, as long as they have different method signatures.
+* Jede Methode hat einen Rückgabetyp, der in ihrer Methodensignatur angegeben ist. Dieser Typ muss mit dem Typ des tatsächlich zurückgegebenen Werts übereinstimmen.
 
-* A method signature is a method’s name and parameter types in order.
+* Wenn eine Methode keinen Typ zurückgibt, ist ihr Rückgabetyp void.
 
-<h2>You learned:</h2>
+* out-Parameter können verwendet werden, um mehrere Werte von einer Methode zurückzugeben.
 
-* Methods return values with the return keyword.
+<h3>Ausdruckskörper-Definitionen können für einzeilige Methodenkörper verwendet werden:</h3>
 
-* Every method has a return type, designated in its method signature. That type must match the type of the value actually returned.
+bool isEven(int num) => num % 2 == 0;.
 
-* If a method returns no type, its return type is void.
+<h3>Lambda-Ausdrücke können verwendet werden, um eine anonyme Methode zu erstellen:</h3>
 
-* out parameters can be used to return multiple values from a method.
 
-<h3>Expression-bodied definitions can be used for one-line method bodies:</h3>
+* bool hasEvenNumbers = Array.Exists(numbers, (int num) => num % 2 == 0 );.
 
-bool isEven(int num) => num % 2 == 0;
+<h2>Man hat zwei „Unterabkürzungen“ innerhalb von Lambda-Ausdrücken gelernt:<h2>
 
-<h3>Lambda expressions can be used to create an anonymous method:</h3>
+<h3>Man kann den Parametertyp entfernen, wenn er abgeleitet werden kann:</h3>
 
+  
+* bool hasEvenNumbers = Array.Exists(numbers, (num) => num % 2 == 0 );.
 
-* bool hasEvenNumbers = Array.Exists(numbers, (int num) => num % 2 == 0 );
+<h3>Man kann die Klammern entfernen, wenn es einen Parameter gibt:</h3>
+  
 
-<h2>You learned two “sub-shortcuts” within lambda expressions:<h2>
+* bool hasEvenNumbers = Array.Exists(numbers, num => num % 2 == 0 );.
 
-<h3>You can remove the parameter type if it can be inferred:</h3>
+* Datenstrukturen und wie wir sie nutzen können, um unsere Daten besser zu organisieren.
 
+* Wie man Werte in Arrays erstellt, auf sie zugreift und sie bearbeitet.
 
-* bool hasEvenNumbers = Array.Exists(numbers, (num) => num % 2 == 0 );
+* Verwendung der integrierten Methoden der Array-Klasse, einschließlich Sort(), IndexOf() und Find().
 
-<h3>You can remove the parentheses if there is one parameter:</h3>
+* Eine Schleife ist eine Struktur in der Programmierung, bei der die Anweisungen einmal geschrieben werden, ein Computer sie jedoch mehrmals ausführen kann.
 
-* bool hasEvenNumbers = Array.Exists(numbers, num => num % 2 == 0 );
+* Jede Ausführung dieser Anweisungen wird als Iteration bezeichnet.
 
-* Data structures and how we can use them to better organize our data
+* While-Schleifen werden wiederholt, bis sich eine Bedingung ändert.
 
-* How to build, access, and edit values in arrays
+* do...while-Schleifen werden einmal ausgeführt und dann wiederholt, bis sich eine Bedingung ändert.
 
-* How to use Array class built-in methods, including Sort(), IndexOf(), and Find()
+* For-Schleifen wiederholen sich eine bestimmte Anzahl von Malen.
 
-* A loop is a structure in programming where the instructions are written once, but a computer can execute them multiple times
+* Foreach-Schleifen werden für jedes Element in einer Sammlung wiederholt.
 
-* Each execution of those instructions is called an iteration
+* Sprunganweisungen wie break, Continue und Return werden verwendet, um Schleifen zusätzlichen Kontrollfluss hinzuzufügen.
+  
+  <h2>man hat gelernt, wie man:</h2>
 
-* while loops repeat until a condition changes
+* Definiere eine Klasse.
 
-* do...while loops execute once, and then repeat until a condition changes
+* Instanziiere ein Objekt mit new.
 
-* for loops repeat for a specified number of times
+* Definiere Felder, die Daten für jede Klasse.
 
-* foreach loops repeat for each item in a collection
+* Definiere Eigenschaften, die Sprecher für jedes Feld.
 
-* jump statements, like break, continue, and return are used to add additional control flow to loops
+* Definiere automatische Eigenschaften, die Abkürzung für das Erstellen von Eigenschaften.
 
-<h2>You learned how to:</h2>
+* Definiere Methoden, die Aktionen, die eine Klasse ausführen kann.
 
-* Define a class
+* Definiere Konstruktoren, die speziellen Methoden, die aufgerufen werden, wenn eine Klasse instanziiert wird.
 
-* Instantiate an object using new
+* Konstruktoren überladen und Code damit wiederverwenden.
 
-* Define fields, the pieces of data for each class
-
-* Define properties, the spokespeople for each field
-
-* Define automatic properties, the shorthand for making properties
-
-* Define methods, the actions a class can take
-
-* Define constructors, the special methods called when a class is instantiated
-
-* Overload constructors and reuse code with this
-
-* Control access to class members using public and private
+* Kontrolliere den Zugriff auf Klassenmitglieder mit public und private.
