@@ -1,14 +1,14 @@
 <h1>Javascript</h1>
 
-* Die Daten werden mit console.log() auf der Konsole, einem Panel zur Anzeige von Meldungen, ausgedruckt bzw. protokolliert.
+* Die Daten werden mit console.log() auf der Konsole, einem Panel angezeigt.
 
 * Wir können einzeilige Kommentare mit // und mehrzeilige Kommentare zwischen /* und */ schreiben.
 
-* Es gibt 7 grundlegende Datentypen in JavaScript: Zeichenketten, Zahlen, Boolesche Werte, null, undefiniert, Symbol und Objekt.
+* Es gibt 7 grundlegende Datentypen in JavaScript: Strings, Zahlen, Boolesche Werte (true, false), null, undefiniert, Symbol und Objekt.
 
 * Zahlen sind beliebige Zahlen ohne Anführungszeichen: 23.8879
 
-* Strings sind Zeichen, die in einfache oder doppelte Anführungszeichen eingeschlossen sind: Beispielstring
+* Strings sind Zeichen, die in einfache oder doppelte Anführungszeichen eingeschlossen sind: 'Beispielstring'
 
 * Zu den eingebauten arithmetischen Operatoren gehören +, -, *, / und %.
 
@@ -16,9 +16,9 @@
 
 * Objekte, einschließlich Instanzen von Datentypen, können über Methoden verfügen, die Aktionen ausführen. Methoden werden aufgerufen, indem dem Objekt oder der Instanz ein Punkt, der Methodenname und Klammern angehängt werden. Zum Beispiel: 'hallo'.toUpperCase().
 
-* Auf Eigenschaften und Methoden kann man mit dem Operator ., Punkt zugreifen.
+* Auf Eigenschaften und Methoden kann man mit dem Operator "Dot", zugreifen.
 
-* Eingebaute Objekte, einschließlich Math, sind Sammlungen von Methoden und Eigenschaften, die JavaScript bereitstellt.
+* Eingebaute Objekte, mit "Math", sind Sammlungen von Methoden und Eigenschaften, die JavaScript bereitstellt.
 
 * Variablen enthalten wiederverwendbare Daten in einem Programm und verknüpfen sie mit einem Namen.
 
@@ -32,9 +32,9 @@
 
 * Mathematische Zuweisungsoperatoren erleichtern die Berechnung eines neuen Wertes und seine Zuweisung an dieselbe Variable.
 
-* Der +-Operator wird zur Verkettung von Zeichenketten verwendet, einschließlich der in Variablen gespeicherten Zeichenkettenwerte.
+* Der +-Operator wird zur Verkettung von Strings verwendet, einschließlich der in Variablen gespeicherten Zeichenkettenwerte.
 
-* In ES6 verwenden Template-Literale Backticks ` und ${}, um Werte in eine Zeichenkette zu interpolieren.
+* In ES6 verwenden Template-Literale "Backticks" (`) und "${}", um Werte in einen String zu interpolieren.
 
 * Das Schlüsselwort typeof gibt den Datentyp (als String) eines Wertes zurück.
 
@@ -46,9 +46,9 @@
 
 * Vergleichsoperatoren, einschließlich <, >, <=, >=, === und !==, können zwei Werte vergleichen.
 
-* Der logische und-Operator && oder "und" prüft, ob beide angegebenen Ausdrücke wahr sind.
+* Der Logisch und-Operator && oder "und" prüft, ob beide angegebenen Ausdrücke wahr sind.
 
-* Der logische Operator ||, oder "oder", prüft, ob einer der beiden angegebenen Ausdrücke der Wahrheit entspricht.
+* Der Logisch Operator ||, oder "oder", prüft, ob einer der beiden angegebenen Ausdrücke der Wahrheit entspricht.
 
 * Der bang-Operator ! wechselt den Wahrheitsgehalt und Falschheitsgehalt eines Wertes.
 
