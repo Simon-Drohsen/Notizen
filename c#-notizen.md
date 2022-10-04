@@ -179,7 +179,7 @@ bool isEven(int num) => num % 2 == 0;.
 
   <h2>In dieser Lektion hat man gelernt:</h2>
 
-* gelernt, dass Schnittstellen nützlich sind, um bestimmte Funktionen über mehrere Klassen hinweg zu garantieren.
+* Dass Schnittstellen nützlich sind, um bestimmte Funktionen über mehrere Klassen hinweg zu garantieren.
 
 * Eine Schnittstelle mit dem Schlüsselwort interface erstellt.
 
@@ -188,3 +188,37 @@ bool isEven(int num) => num % 2 == 0;.
 * Klassen erstellt, die die Schnittstelle implementieren.
 
 * Hinzufügen von Elementen zu den Klassen, die nicht in der Schnittstelle angegeben waren.
+
+* Die Vererbung ist eine Möglichkeit, Duplikation über mehrere Klassen hinweg zu vermeiden.
+
+* Bei der Vererbung erbt eine Klasse die Mitglieder einer anderen Klasse.
+  
+* Die Klasse, die erbt, wird Unterklasse oder abgeleitete Klasse genannt. Die andere Klasse wird als Oberklasse oder Basisklasse bezeichnet.
+
+* Auf die Mitglieder einer Oberklasse kann man mit base zugreifen. Dies ist sehr nützlich, wenn der Konstruktor der Oberklasse aufgerufen wird.
+
+* Mit protected kann der Zugriff auf eine Oberklasse und ihre Unterklassen eingeschränkt werden.
+
+* Mit virtual und override kann ein Mitglied einer Oberklasse überschrieben werden.
+
+* Mit abstract kann ein Mitglied einer Oberklasse ohne Definition seiner Implementierung erstellt werden. Dies ist nützlich, wenn die Implementierung in jeder Unterklasse anders sein wird.
+  
+* Classes and interfaces are reference types. A variable of this type holds a reference to the data, not the data itself. This is different from value types like int and bool
+
+* The equality operator (==) uses a referential comparison for reference types and a value comparison for value types
+
+* Multiple references can be created for a single object
+  
+* A reference and its corresponding object do not have to be the same type. For example, we can refer to a subclass object by an inherited superclass or implemented interface reference
+
+* The functionality available to an object reference is determined by the reference’s type, not the object’s type
+
+3 Polymorphism is the ability in programming to present the same interface for differing data types
+
+* Referencing an object by an inherited type or implemented interface is called upcasting. It can be done implicitly
+
+* Referencing an object by a derived class is called downcasting, which must be made explicit by adding the type name in parentheses. It may cause an InvalidCastException error when the code is run
+
+* To signify that a reference is “empty” or refers to no object, we set it equal to null
+
+* If a reference is not set to any value it is unassigned and cannot perform any operations
