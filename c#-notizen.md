@@ -203,22 +203,28 @@ bool isEven(int num) => num % 2 == 0;.
 
 * Mit abstract kann ein Mitglied einer Oberklasse ohne Definition seiner Implementierung erstellt werden. Dies ist nützlich, wenn die Implementierung in jeder Unterklasse anders sein wird.
   
-* Classes and interfaces are reference types. A variable of this type holds a reference to the data, not the data itself. This is different from value types like int and bool
+* Klassen und Schnittstellen sind Referenztypen. Eine Variable dieses Typs enthält einen Verweis auf die Daten, nicht die Daten selbst. Dies unterscheidet sich von Werttypen wie int und bool
 
-* The equality operator (==) uses a referential comparison for reference types and a value comparison for value types
+* Der Gleichheitsoperator (==) verwendet einen referenziellen Vergleich für Referenztypen und einen Wertvergleich für Werttypen
 
-* Multiple references can be created for a single object
-  
-* A reference and its corresponding object do not have to be the same type. For example, we can refer to a subclass object by an inherited superclass or implemented interface reference
+* Für ein einzelnes Objekt können mehrere Referenzen erstellt werden.
 
-* The functionality available to an object reference is determined by the reference’s type, not the object’s type
+* Ein Verweis und das zugehörige Objekt müssen nicht vom gleichen Typ sein. Zum Beispiel kann man auf ein Objekt einer Unterklasse durch eine geerbte Oberklasse oder eine implementierte Schnittstellenreferenz verweisen.
 
-* Polymorphism is the ability in programming to present the same interface for differing data types
+* Die für eine Objektreferenz verfügbare Funktionalität wird durch den Typ der Referenz bestimmt, nicht durch den Typ des Objekts.
 
-* Referencing an object by an inherited type or implemented interface is called upcasting. It can be done implicitly
+* Polymorphismus ist die Möglichkeit, in der Programmierung dieselbe Schnittstelle für unterschiedliche Datentypen zu verwenden.
 
-* Referencing an object by a derived class is called downcasting, which must be made explicit by adding the type name in parentheses. It may cause an InvalidCastException error when the code is run
+* Die Referenzierung eines Objekts durch einen geerbten Typ oder eine implementierte Schnittstelle wird als Upcasting bezeichnet. Es kann implizit erfolgen
 
-* To signify that a reference is “empty” or refers to no object, we set it equal to null
+* Die Referenzierung eines Objekts durch eine abgeleitete Klasse wird als Downcasting bezeichnet und muss explizit gemacht werden, indem der Typname in Klammern hinzugefügt wird. Es kann einen InvalidCastException-Fehler verursachen, wenn der Code ausgeführt wird
 
-* If a reference is not set to any value it is unassigned and cannot perform any operations
+* Um zu signalisieren, dass eine Referenz "leer" ist oder sich auf kein Objekt bezieht, setzen wir sie auf null
+
+* Wenn ein Verweis nicht auf einen Wert gesetzt wird, ist er nicht zugewiesen und kann keine Operationen durchführen.
+
+* Jeder Typ erbt schließlich von Object.
+
+* Object-Mitglieder umfassen Equals(), ToString() und GetType().
+
+* Die Methode ToString() ermöglicht es Console.WriteLine(), für alle Typen zu funktionieren.
