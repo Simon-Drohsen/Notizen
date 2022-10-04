@@ -213,7 +213,7 @@ bool isEven(int num) => num % 2 == 0;.
 
 * The functionality available to an object reference is determined by the reference’s type, not the object’s type
 
-3 Polymorphism is the ability in programming to present the same interface for differing data types
+* Polymorphism is the ability in programming to present the same interface for differing data types
 
 * Referencing an object by an inherited type or implemented interface is called upcasting. It can be done implicitly
 
