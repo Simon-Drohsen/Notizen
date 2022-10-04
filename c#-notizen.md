@@ -260,3 +260,23 @@ bool isEven(int num) => num % 2 == 0;.
 * Eine Sequenz innerhalb einer Liste wird als Bereich bezeichnet. Es gibt spezifische Methoden für die Arbeit mit Bereichen, einschließlich GetRange(), AddRange(), InsertRange() und RemoveRange().
 
 * Listen sind eine Art von generischen Sammlungen, die mit generischen Typparametern definiert werden. Die Typparameter werden bei der Instanziierung jeder generischen Klasse angegeben.
+
+* LINQ ist ein Satz von Sprach- und Framework-Funktionen zum Schreiben strukturierter, typsicherer Abfragen über lokale Objektsammlungen und entfernte Datenquellen.
+
+* Verwenden Sie LINQ, indem Sie den System.Linq-Namensraum in Ihrer Datei referenzieren.
+
+* Wenn eine LINQ-Abfrage eine Folge von Elementen zurückgibt, ist ihr Typ IEnumerable<T>. Das heißt, sie funktioniert mit foreach-Schleifen und ihre Länge ist mit Count() zugänglich.
+
+* Speichern Sie das Ergebnis einer Abfrage in einer Variablen des Typs var. var ist ein impliziter Typ, d. h. er erhält alle Vorteile der Typüberprüfung, ohne dass wir den tatsächlichen Typ angeben müssen.
+
+* LINQ-Abfragen können in Methodensyntax oder Abfragesyntax geschrieben werden.
+
+* Wir bevorzugen die Methodensyntax für einzelne Operationen und die Abfragesyntax für fast alles andere.
+
+* Der Where-Operator wird verwendet, um bestimmte Elemente aus einer Sequenz auszuwählen.
+
+* Der Select-Operator bestimmt, was für jedes Element in der Sequenz zurückgegeben wird.
+
+* Der from-Operator deklariert eine Bereichsvariable, die zum Durchlaufen der Sequenz verwendet wird.
+
+* LINQ kann neben anderen Datentypen auch auf Arrays und Listen angewendet werden.
