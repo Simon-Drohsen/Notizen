@@ -1,5 +1,7 @@
 <h1>Javascript</h1>
 
+* Komplette Array Dokumentation: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Iteration_methods
+
 * Die Daten werden mit console.log() auf der Konsole, einem Panel angezeigt.
 
 * Wir können einzeilige Kommentare mit // und mehrzeilige Kommentare zwischen /* und */ schreiben.
@@ -64,23 +66,23 @@
 
 * Um einen Wert aus einer Funktion zurückzugeben, verwenden wir eine return-Anweisung.
 
- Der Geltungsbereich bezieht sich darauf, wo im Programm auf Variablen zugegriffen werden kann, und wird dadurch bestimmt, wo und wie sie deklariert werden.
+* "Scope" bezieht sich darauf, wo im Programm auf Variablen zugegriffen werden kann, und wird dadurch bestimmt, wo und wie sie deklariert werden.
 
-* Blöcke sind Anweisungen, die innerhalb geschweifter Klammern {} stehen.
+* "Blocks" sind Anweisungen, die innerhalb geschweifter Klammern {} stehen.
 
-* Der globale Geltungsbereich bezieht sich auf den Kontext, in dem Variablen für jeden Teil des Programms zugänglich sind.
+* Der "Global scope" bezieht sich auf den Kontext, in dem Variablen für jeden Teil des Programms zugänglich sind.
 
-* Globale Variablen sind Variablen, die im globalen Bereich existieren.
+* "Global variables" sind Variablen, die im "Global Scope" existieren.
 
-* Der Blockbereich bezieht sich auf den Kontext, in dem Variablen nur innerhalb des Blocks, in dem sie definiert sind, zugänglich sind.
+* Der "Block scope" bezieht sich auf den Kontext, in dem Variablen nur innerhalb des Blocks definiert sind.
 
-* Lokale Variablen sind Variablen, die innerhalb des Blockbereichs existieren.
+* "Local variables" sind Variablen, die innerhalb des Blockbereichs existieren.
 
-* Globaler Namespace ist der Bereich in unserem Code, der Informationen mit globalem Geltungsbereich enthält.
+* "Global namespace" ist der Bereich in unserem Code, der Informationen mit globalem Geltungsbereich enthält.
 
-* Von Scope Pollution spricht man, wenn zu viele Variablen in einem Namespace existieren oder Variablennamen wiederverwendet werden.
+* Von "scope pollution" spricht man, wenn zu viele Variablen in einem Namespace hat oder Variablennamen wiederverwendet werden.
 
-* Denken Sie daran, bei der Deklaration Ihrer Variablen die besten Praktiken anzuwenden, wenn Sie mit der Programmierung fortfahren! Wenn Sie Ihre Variablen eng einteilen, können Sie sicherstellen, dass Ihr Code eine saubere, organisierte und modulare Logik aufweist.
+* Denken Sie daran, bei der Deklaration Ihrer Variablen die besten Praktiken anzuwenden! Wenn Sie Ihre Variablen eng einteilen, können Sie sicherstellen, dass Ihr Code eine saubere, organisierte und modulare Logik aufweist.
 
 * Arrays sind Listen, die Daten in JavaScript speichern.
 
@@ -90,20 +92,94 @@
 
 * Wir können auf ein Element in einem Array über seinen Index zugreifen, mit einer Syntax wie: myArray[0].
 
-* Wir können auch ein Element in einem Array über seinen Index ändern, mit einer Syntax wie myArray[0] = 'new string';
+* Wir können auch ein Element in einem Array über seinen Index ändern, mit einer Syntax wie: myArray[0] = 'new string';
 
-* Arrays haben eine Längeneigenschaft, mit der Sie die Anzahl der Elemente in einem Array anzeigen können.
+* Arrays haben eine ".length property", mit der Sie die Anzahl der Elemente in einem Array anzeigen können.
 
 * Arrays haben ihre eigenen Methoden, einschließlich .push() und .pop(), die Elemente zu einem Array hinzufügen bzw. daraus entfernen.
 
-* Arrays haben viele Methoden, die verschiedene Aufgaben erfüllen, wie z.B. .slice() und .shift(). Eine Dokumentation finden Sie auf der Mozilla Developer Network Website.
+* Arrays haben viele Methoden, die verschiedene Aufgaben erfüllen, wie z.B. .slice() und .shift().
 
-* Einige eingebaute Methoden sind veränderlich, d. h. die Methode verändert das Array, während andere nicht veränderlich sind. Sie können immer in der Dokumentation nachsehen.
+* Einige eingebaute Methoden sind veränderlich, d.h. die Methode verändert das Array, während andere das nicht tun.
 
-* Variablen, die Arrays enthalten, können mit let oder const deklariert werden. Selbst wenn sie mit const deklariert werden, sind Arrays noch veränderbar. Allerdings kann eine mit const deklarierte Variable nicht neu zugewiesen werden.
+* Variablen, die Arrays enthalten, können mit "let" oder "const" deklariert werden. Selbst wenn sie mit const deklariert werden, sind Arrays noch veränderbar. Allerdings kann eine mit const deklarierte Variable nicht neu zugewiesen werden.
 
 * Arrays, die innerhalb einer Funktion verändert werden, behalten diese Änderung auch außerhalb der Funktion bei.
 
 * Arrays können innerhalb anderer Arrays verschachtelt werden.
 
 * Um auf Elemente in verschachtelten Arrays zuzugreifen, verketten Sie die Indizes mit der Klammerschreibweise.
+
+* "Loops" führen sich wiederholende Aktionen aus, so dass wir diesen Prozess nicht jedes Mal manuell programmieren müssen.
+
+* Eine verschachtelte for-Schleife ist eine Schleife innerhalb einer anderen Schleife
+
+* while-Schleifen ermöglichen verschiedene Arten von Abbruchbedingungen
+
+* Abbruchbedingungen sind entscheidend für die Vermeidung von Endlosschleifen.
+
+* do...while-Schleifen führen den Code mindestens einmal aus und überprüfen die Abbruchbedingung erst nach der ersten Ausführung.
+
+* Das break-Schlüsselwort ermöglicht es Programmen, eine Schleife während der Ausführung ihres Blocks zu verlassen.
+
+* "abstraction" ermöglicht es uns, komplizierten Code so zu schreiben, dass er leicht wiederverwendbar, fehlerfrei und für den menschlichen Leser verständlich ist.
+
+* Wir können mit Funktionen auf dieselbe Weise arbeiten wie mit jeder anderen Art von Daten, einschließlich der Neuzuweisung von Funktionen an neue Variablen.
+
+* JavaScript-Funktionen sind Objekte erster Klasse, d.h. sie haben Eigenschaften und Methoden wie jedes andere Objekt.
+
+* Funktionen können an andere Funktionen als Parameter übergeben werden.
+
+* Eine Funktion höherer Ordnung ist eine Funktion, die entweder Funktionen als Parameter annimmt, eine Funktion zurückgibt oder beides.
+
+* .forEach() wird verwendet, um den gleichen Code für jedes Element in einem Array auszuführen, verändert aber das Array nicht und gibt undefiniert zurück.
+
+* .map() führt denselben Code für jedes Element in einem Array aus und gibt ein neues Array mit den aktualisierten Elementen zurück.
+
+* .filter() prüft jedes Element in einem Array, um zu sehen, ob es bestimmte Kriterien erfüllt und gibt ein neues Array mit den Elementen zurück, die die Kriterien erfüllen.
+
+* .findIndex() gibt den Index des ersten Elements eines Arrays zurück, das eine Bedingung in der Callback-Funktion erfüllt. Sie gibt -1 zurück, wenn keines der Elemente im Array die Bedingung erfüllt.
+
+* .reduce() iteriert durch ein Array, nimmt die Werte der Elemente und gibt einen einzelnen Wert zurück.
+
+* Alle Iterator-Methoden benötigen eine Callback-Funktion, die eine vordefinierte Funktion, ein Funktionsausdruck oder eine Pfeilfunktion sein kann.
+
+* In Objekten werden Sammlungen von Schlüssel-Wert-Paaren gespeichert.
+
+* Jedes Schlüssel-Wert-Paar ist eine Eigenschaft - wenn eine Eigenschaft eine Funktion ist, wird sie als Methode bezeichnet.
+
+* Ein Objektliteral besteht aus kommagetrennten Schlüssel-Wert-Paaren, die von geschweiften Klammern umgeben sind.
+
+* Sie können auf eine Eigenschaft innerhalb eines Objekts zugreifen, sie hinzufügen oder bearbeiten, indem Sie die Punkt- oder Klammerschreibweise verwenden.
+
+* Wir können Methoden zu unseren Objektliteralen hinzufügen, indem wir die Schlüssel-Wert-Syntax mit anonymen Funktionsausdrücken als Werte verwenden oder die neue ES6-Methodensyntax nutzen.
+
+* Wir können durch komplexe, verschachtelte Objekte navigieren, indem wir Operatoren verketten.
+
+* Objekte sind veränderbar - wir können ihre Eigenschaften ändern, auch wenn sie mit const deklariert sind.
+
+* Objekte werden per Referenz übergeben - wenn wir Änderungen an einem Objekt vornehmen, das an eine Funktion übergeben wird, sind diese Änderungen dauerhaft.
+
+* Wir können mit der For...in-Syntax durch Objekte iterieren.
+
+* Das Objekt, zu dem eine Methode gehört, wird das "calling object" genannt.
+
+* Das Schlüsselwort "this" bezieht sich auf das "calling object" und kann verwendet werden, um auf Eigenschaften des "calling objects" zuzugreifen.
+
+* Methoden haben nicht automatisch Zugriff auf andere interne Eigenschaften des aufrufenden Objekts.
+
+* Der Wert von "this" hängt davon ab, woher der Zugriff auf "this" erfolgt.
+
+* Wir können Pfeilfunktionen nicht als Methoden verwenden, wenn wir auf andere interne Eigenschaften zugreifen wollen.
+
+* JavaScript-Objekte haben keinen eingebauten Datenschutz, sondern es gibt Konventionen, die man einhalten muss, um andere Entwickler über die Absicht des Codes zu informieren.
+
+* Die Verwendung eines Unterstrichs vor einem Eigenschaftsnamen bedeutet, dass der ursprüngliche Entwickler nicht beabsichtigt hat, diese Eigenschaft direkt zu ändern.
+
+* Setter- und Getter-Methoden ermöglichen detailliertere Möglichkeiten des Zugriffs auf und der Zuweisung von Eigenschaften.
+
+* Factory-Funktionen ermöglichen es, Objektinstanzen schnell und wiederholt zu erstellen.
+
+* Es gibt verschiedene Möglichkeiten, die Objektdestrukturierung zu verwenden: eine Möglichkeit ist die Kurzschrift für Eigenschaftswerte, eine andere die destrukturierte Zuweisung.
+
+* Wie bei jedem Konzept ist es gut zu lernen, wie man die Dokumentation mit Objekten verwendet!
