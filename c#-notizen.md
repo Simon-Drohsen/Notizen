@@ -166,3 +166,13 @@ bool isEven(int num) => num % 2 == 0;.
 * Konstruktoren überladen und Code damit wiederverwenden.
 
 * Kontrolliere den Zugriff auf Klassenmitglieder mit public und private.
+
+* Im Allgemeinen bedeutet statisch "mit der Klasse verbunden, nicht mit einer Instanz".
+
+* Der Zugriff auf ein statisches Mitglied erfolgt immer über den Klassennamen und nicht über den Instanznamen, wie bei Forest.Area.
+
+* Eine statische Methode kann nicht auf nicht-statische Mitglieder zugreifen.
+
+* Ein statischer Konstruktor wird einmal pro Typ ausgeführt, nicht pro Instanz. Er wird aufgerufen, bevor der Typ instanziiert wird oder auf ein statisches Mitglied zugegriffen wird.
+  
+* Eine statische Klasse kann nicht instanziiert werden. Der Zugriff auf ihre Mitglieder erfolgt über den Klassennamen, z. B. Math.PI.
