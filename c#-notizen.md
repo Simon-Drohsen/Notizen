@@ -203,9 +203,11 @@ bool isEven(int num) => num % 2 == 0;.
 
 * Mit abstract kann ein Mitglied einer Oberklasse ohne Definition seiner Implementierung erstellt werden. Dies ist nützlich, wenn die Implementierung in jeder Unterklasse anders sein wird.
   
-* Klassen und Schnittstellen sind Referenztypen. Eine Variable dieses Typs enthält einen Verweis auf die Daten, nicht die Daten selbst. Dies unterscheidet sich von Werttypen wie int und bool
+* Klassen und Schnittstellen sind Referenztypen.
+  
+* Eine Variable dieses Typs enthält einen Verweis auf die Daten, nicht die Daten selbst. Dies unterscheidet sich von Werttypen wie int und bool.
 
-* Der Gleichheitsoperator (==) verwendet einen referenziellen Vergleich für Referenztypen und einen Wertvergleich für Werttypen
+* Der Gleichheitsoperator (==) verwendet einen referenziellen Vergleich für Referenztypen und einen Wertvergleich für Werttypen.
 
 * Für ein einzelnes Objekt können mehrere Referenzen erstellt werden.
 
@@ -215,7 +217,7 @@ bool isEven(int num) => num % 2 == 0;.
 
 * Polymorphismus ist die Möglichkeit, in der Programmierung dieselbe Schnittstelle für unterschiedliche Datentypen zu verwenden.
 
-* Die Referenzierung eines Objekts durch einen geerbten Typ oder eine implementierte Schnittstelle wird als Upcasting bezeichnet. Es kann implizit erfolgen
+* Die Referenzierung eines Objekts durch einen geerbten Typ oder eine implementierte Schnittstelle wird als Upcasting bezeichnet. Es kann implizit erfolgen.
 
 * Die Referenzierung eines Objekts durch eine abgeleitete Klasse wird als Downcasting bezeichnet und muss explizit gemacht werden, indem der Typname in Klammern hinzugefügt wird. Es kann einen InvalidCastException-Fehler verursachen, wenn der Code ausgeführt wird
 
@@ -228,3 +230,13 @@ bool isEven(int num) => num % 2 == 0;.
 * Object-Mitglieder umfassen Equals(), ToString() und GetType().
 
 * Die Methode ToString() ermöglicht es Console.WriteLine(), für alle Typen zu funktionieren.
+
+* Der Typ String oder Zeichenkette ist ein Referenztyp.
+
+* Strings sind unveränderlich, d. h. sie können nach ihrer Erstellung nicht mehr geändert werden.
+
+* Unveränderlich zu sein bedeutet auch, dass eine String-Referenz immer auf das ursprüngliche Objekt verweist, so dass die "Änderung" einer Referenz auf einen String keine Auswirkungen auf andere Referenzen auf diesen hat.
+
+* Mit dem Gleichheitsoperator (==) werden Strings auf Wert- und nicht auf Referenzgleichheit geprüft.
+
+* Eine String-Variable kann nicht zugewiesen, null oder leer sein. Leere Strings können durch String.Empty oder "" dargestellt werden - sie sind gleichwertig.
