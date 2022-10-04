@@ -176,3 +176,15 @@ bool isEven(int num) => num % 2 == 0;.
 * Ein statischer Konstruktor wird einmal pro Typ ausgeführt, nicht pro Instanz. Er wird aufgerufen, bevor der Typ instanziiert wird oder auf ein statisches Mitglied zugegriffen wird.
   
 * Eine statische Klasse kann nicht instanziiert werden. Der Zugriff auf ihre Mitglieder erfolgt über den Klassennamen, z. B. Math.PI.
+
+  <h2>In dieser Lektion hat man gelernt:</h2>
+
+* gelernt, dass Schnittstellen nützlich sind, um bestimmte Funktionen über mehrere Klassen hinweg zu garantieren.
+
+* Eine Schnittstelle mit dem Schlüsselwort interface erstellt.
+
+* Eigenschaften und Methoden (aber keine Konstruktoren oder Felder) in der Schnittstelle definiert.
+
+* Klassen erstellt, die die Schnittstelle implementieren.
+
+* Hinzufügen von Elementen zu den Klassen, die nicht in der Schnittstelle angegeben waren.
