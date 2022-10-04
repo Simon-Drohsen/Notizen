@@ -240,3 +240,23 @@ bool isEven(int num) => num % 2 == 0;.
 * Mit dem Gleichheitsoperator (==) werden Strings auf Wert- und nicht auf Referenzgleichheit geprüft.
 
 * Eine String-Variable kann nicht zugewiesen, null oder leer sein. Leere Strings können durch String.Empty oder "" dargestellt werden - sie sind gleichwertig.
+
+* Eine Liste, oder List<T>, ist eine allgemeine, sequentielle Datenstruktur. Der spezifische Typ, den sie enthält, wird bei der Instanziierung angegeben.
+
+* Listen sind praktisch unbegrenzt. Sie "wachsen" und "schrumpfen", wenn die Anzahl der Elemente steigt und fällt.
+
+* Auf Listenwerte kann mit Hilfe von eckigen Klammern über einen Index zugegriffen werden: [ ].
+
+* Um eine leere Liste zu erstellen, verwenden Sie einen einfachen Konstruktor. Um eine Liste mit Werten zu erstellen, verwenden Sie die Objektinitialisierung.
+
+* Add() wird verwendet, um ein Element zu einer Liste hinzuzufügen.
+
+* Remove() wird verwendet, um ein Element aus der Liste zu entfernen. Sie gibt true zurück, wenn sie erfolgreich ist, andernfalls false.
+
+* Count ist die Anzahl der Elemente im Array.
+
+* Contains() gibt true zurück, wenn das Argument in der Liste vorhanden ist, andernfalls false.
+
+* Eine Sequenz innerhalb einer Liste wird als Bereich bezeichnet. Es gibt spezifische Methoden für die Arbeit mit Bereichen, einschließlich GetRange(), AddRange(), InsertRange() und RemoveRange().
+
+* Listen sind eine Art von generischen Sammlungen, die mit generischen Typparametern definiert werden. Die Typparameter werden bei der Instanziierung jeder generischen Klasse angegeben.
