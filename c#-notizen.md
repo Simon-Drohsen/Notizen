@@ -166,3 +166,117 @@ bool isEven(int num) => num % 2 == 0;.
 * Konstruktoren überladen und Code damit wiederverwenden.
 
 * Kontrolliere den Zugriff auf Klassenmitglieder mit public und private.
+
+* Im Allgemeinen bedeutet statisch "mit der Klasse verbunden, nicht mit einer Instanz".
+
+* Der Zugriff auf ein statisches Mitglied erfolgt immer über den Klassennamen und nicht über den Instanznamen, wie bei Forest.Area.
+
+* Eine statische Methode kann nicht auf nicht-statische Mitglieder zugreifen.
+
+* Ein statischer Konstruktor wird einmal pro Typ ausgeführt, nicht pro Instanz. Er wird aufgerufen, bevor der Typ instanziiert wird oder auf ein statisches Mitglied zugegriffen wird.
+  
+* Eine statische Klasse kann nicht instanziiert werden. Der Zugriff auf ihre Mitglieder erfolgt über den Klassennamen, z. B. Math.PI.
+
+  <h2>In dieser Lektion hat man gelernt:</h2>
+
+* Dass Schnittstellen nützlich sind, um bestimmte Funktionen über mehrere Klassen hinweg zu garantieren.
+
+* Eine Schnittstelle mit dem Schlüsselwort interface erstellt.
+
+* Eigenschaften und Methoden (aber keine Konstruktoren oder Felder) in der Schnittstelle definiert.
+
+* Klassen erstellt, die die Schnittstelle implementieren.
+
+* Hinzufügen von Elementen zu den Klassen, die nicht in der Schnittstelle angegeben waren.
+
+* Die Vererbung ist eine Möglichkeit, Duplikation über mehrere Klassen hinweg zu vermeiden.
+
+* Bei der Vererbung erbt eine Klasse die Mitglieder einer anderen Klasse.
+  
+* Die Klasse, die erbt, wird Unterklasse oder abgeleitete Klasse genannt. Die andere Klasse wird als Oberklasse oder Basisklasse bezeichnet.
+
+* Auf die Mitglieder einer Oberklasse kann man mit base zugreifen. Dies ist sehr nützlich, wenn der Konstruktor der Oberklasse aufgerufen wird.
+
+* Mit protected kann der Zugriff auf eine Oberklasse und ihre Unterklassen eingeschränkt werden.
+
+* Mit virtual und override kann ein Mitglied einer Oberklasse überschrieben werden.
+
+* Mit abstract kann ein Mitglied einer Oberklasse ohne Definition seiner Implementierung erstellt werden. Dies ist nützlich, wenn die Implementierung in jeder Unterklasse anders sein wird.
+  
+* Klassen und Schnittstellen sind Referenztypen.
+  
+* Eine Variable dieses Typs enthält einen Verweis auf die Daten, nicht die Daten selbst. Dies unterscheidet sich von Werttypen wie int und bool.
+
+* Der Gleichheitsoperator (==) verwendet einen referenziellen Vergleich für Referenztypen und einen Wertvergleich für Werttypen.
+
+* Für ein einzelnes Objekt können mehrere Referenzen erstellt werden.
+
+* Ein Verweis und das zugehörige Objekt müssen nicht vom gleichen Typ sein. Zum Beispiel kann man auf ein Objekt einer Unterklasse durch eine geerbte Oberklasse oder eine implementierte Schnittstellenreferenz verweisen.
+
+* Die für eine Objektreferenz verfügbare Funktionalität wird durch den Typ der Referenz bestimmt, nicht durch den Typ des Objekts.
+
+* Polymorphismus ist die Möglichkeit, in der Programmierung dieselbe Schnittstelle für unterschiedliche Datentypen zu verwenden.
+
+* Die Referenzierung eines Objekts durch einen geerbten Typ oder eine implementierte Schnittstelle wird als Upcasting bezeichnet. Es kann implizit erfolgen.
+
+* Die Referenzierung eines Objekts durch eine abgeleitete Klasse wird als Downcasting bezeichnet und muss explizit gemacht werden, indem der Typname in Klammern hinzugefügt wird. Es kann einen InvalidCastException-Fehler verursachen, wenn der Code ausgeführt wird
+
+* Um zu signalisieren, dass eine Referenz "leer" ist oder sich auf kein Objekt bezieht, setzen wir sie auf null
+
+* Wenn ein Verweis nicht auf einen Wert gesetzt wird, ist er nicht zugewiesen und kann keine Operationen durchführen.
+
+* Jeder Typ erbt schließlich von Object.
+
+* Object-Mitglieder umfassen Equals(), ToString() und GetType().
+
+* Die Methode ToString() ermöglicht es Console.WriteLine(), für alle Typen zu funktionieren.
+
+* Der Typ String oder Zeichenkette ist ein Referenztyp.
+
+* Strings sind unveränderlich, d. h. sie können nach ihrer Erstellung nicht mehr geändert werden.
+
+* Unveränderlich zu sein bedeutet auch, dass eine String-Referenz immer auf das ursprüngliche Objekt verweist, so dass die "Änderung" einer Referenz auf einen String keine Auswirkungen auf andere Referenzen auf diesen hat.
+
+* Mit dem Gleichheitsoperator (==) werden Strings auf Wert- und nicht auf Referenzgleichheit geprüft.
+
+* Eine String-Variable kann nicht zugewiesen, null oder leer sein. Leere Strings können durch String.Empty oder "" dargestellt werden - sie sind gleichwertig.
+
+* Eine Liste, oder List<T>, ist eine allgemeine, sequentielle Datenstruktur. Der spezifische Typ, den sie enthält, wird bei der Instanziierung angegeben.
+
+* Listen sind praktisch unbegrenzt. Sie "wachsen" und "schrumpfen", wenn die Anzahl der Elemente steigt und fällt.
+
+* Auf Listenwerte kann mit Hilfe von eckigen Klammern über einen Index zugegriffen werden: [ ].
+
+* Um eine leere Liste zu erstellen, verwenden Sie einen einfachen Konstruktor. Um eine Liste mit Werten zu erstellen, verwenden Sie die Objektinitialisierung.
+
+* Add() wird verwendet, um ein Element zu einer Liste hinzuzufügen.
+
+* Remove() wird verwendet, um ein Element aus der Liste zu entfernen. Sie gibt true zurück, wenn sie erfolgreich ist, andernfalls false.
+
+* Count ist die Anzahl der Elemente im Array.
+
+* Contains() gibt true zurück, wenn das Argument in der Liste vorhanden ist, andernfalls false.
+
+* Eine Sequenz innerhalb einer Liste wird als Bereich bezeichnet. Es gibt spezifische Methoden für die Arbeit mit Bereichen, einschließlich GetRange(), AddRange(), InsertRange() und RemoveRange().
+
+* Listen sind eine Art von generischen Sammlungen, die mit generischen Typparametern definiert werden. Die Typparameter werden bei der Instanziierung jeder generischen Klasse angegeben.
+
+* LINQ ist ein Satz von Sprach- und Framework-Funktionen zum Schreiben strukturierter, typsicherer Abfragen über lokale Objektsammlungen und entfernte Datenquellen.
+
+* Verwenden Sie LINQ, indem Sie den System.Linq-Namensraum in Ihrer Datei referenzieren.
+
+* Wenn eine LINQ-Abfrage eine Folge von Elementen zurückgibt, ist ihr Typ IEnumerable<T>. Das heißt, sie funktioniert mit foreach-Schleifen und ihre Länge ist mit Count() zugänglich.
+
+* Speichern Sie das Ergebnis einer Abfrage in einer Variablen des Typs var. var ist ein impliziter Typ, d. h. er erhält alle Vorteile der Typüberprüfung, ohne dass wir den tatsächlichen Typ angeben müssen.
+
+* LINQ-Abfragen können in Methodensyntax oder Abfragesyntax geschrieben werden.
+
+* Wir bevorzugen die Methodensyntax für einzelne Operationen und die Abfragesyntax für fast alles andere.
+
+* Der Where-Operator wird verwendet, um bestimmte Elemente aus einer Sequenz auszuwählen.
+
+* Der Select-Operator bestimmt, was für jedes Element in der Sequenz zurückgegeben wird.
+
+* Der from-Operator deklariert eine Bereichsvariable, die zum Durchlaufen der Sequenz verwendet wird.
+
+* LINQ kann neben anderen Datentypen auch auf Arrays und Listen angewendet werden.

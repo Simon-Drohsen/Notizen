@@ -12,3 +12,5 @@
 10. [SASS(SCSS)](https://github.com/Osaaro/Notizen/blob/main/sass(scss)-notizen.md)
 11. [Command Line](https://github.com/Osaaro/Notizen/blob/main/command-line-notizen.md)
 12. [C#](https://github.com/Osaaro/Notizen/blob/main/c%23-notizen.md)
+13. [JavaScript](https://github.com/Osaaro/Notizen/blob/1b7b4191990216fddefd1e864fe5faf64c8a5354/javascript-notizen.md)
+14. [Front- und Backend](https://github.com/Osaaro/Notizen/blob/6e51a0c362e9ff0eeacf5066466830e2abe98e6c/front--und-back-end-notizen.md)
