@@ -183,3 +183,21 @@
 * Es gibt verschiedene Möglichkeiten, die Objektdestrukturierung zu verwenden: eine Möglichkeit ist die Kurzschrift für Eigenschaftswerte, eine andere die destrukturierte Zuweisung.
 
 * Wie bei jedem Konzept ist es gut zu lernen, wie man die Dokumentation mit Objekten verwendet!
+
+* In Objekten werden Sammlungen von Schlüssel-Wert-Paaren gespeichert.
+
+* Jedes Schlüssel-Wert-Paar ist eine Eigenschaft - wenn eine Eigenschaft eine Funktion ist, wird sie als Methode bezeichnet.
+
+* Ein Objektliteral besteht aus kommagetrennten Schlüssel-Wert-Paaren, die von geschweiften Klammern umgeben sind.
+
+* Sie können auf eine Eigenschaft innerhalb eines Objekts zugreifen, sie hinzufügen oder bearbeiten, indem Sie die Punkt- oder Klammerschreibweise verwenden.
+
+* Wir können Methoden zu unseren Objektliteralen hinzufügen, indem wir die Schlüssel-Wert-Syntax mit anonymen Funktionsausdrücken als Werte verwenden oder die neue ES6-Methodensyntax nutzen.
+
+* Wir können durch komplexe, verschachtelte Objekte navigieren, indem wir Operatoren verketten.
+
+* Objekte sind veränderbar - wir können ihre Eigenschaften ändern, auch wenn sie mit const deklariert sind.
+
+* Objekte werden per Referenz übergeben - wenn wir Änderungen an einem Objekt vornehmen, das an eine Funktion übergeben wird, sind diese Änderungen dauerhaft.
+
+* Wir können mit der For...in-Syntax durch Objekte iterieren.
