@@ -124,3 +124,11 @@
 * aria-label und andere ARIA-Eigenschaften können verwendet werden, um Benutzern zu helfen, Informationen wahrzunehmen, die visuell, aber nicht durch Text kommuniziert werden.
 
 * Das alt-Attribut sollte jedem Bildelement (und allen anderen Elementen, die es unterstützen) anstelle von aria-label hinzugefügt werden. Wenn es verwendet wird, sollte sein Wert eine nützliche Beschreibung des Bildes sein.
+
+* Das DOM ist ein Strukturmodell einer Webseite, das den Zugriff von Skriptsprachen auf diese Seite ermöglicht.
+
+* Das Organisationssystem im DOM ahmt die Verschachtelungsstruktur eines HTML-Dokuments nach.
+
+* Elemente, die in einem anderen verschachtelt sind, werden als Kinder dieses Elements bezeichnet. Das Element, in dem sie verschachtelt sind, wird als das übergeordnete Element dieser Elemente bezeichnet.
+
+* Das DOM ermöglicht auch den Zugriff auf die Attribute eines HTML-Elements wie style, id usw.
