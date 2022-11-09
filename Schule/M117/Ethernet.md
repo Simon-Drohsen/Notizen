@@ -45,9 +45,9 @@ Heutzutage haben wir Switches und Hubs die das Ethernet viel einfacher machen.
 
 <h2>Wie ist das Osi Modell aufgebaut?</h2>
 
-![Schichtenmodell](../images/schichtenmodell_m117.png)
+![Schichtenmodell](/images/schichtenmodell_m117.png)
 
-![Erklärung des Schichtenmodells](../images/schichtenmodell_erklaerung.png)
+![Erklärung des Schichtenmodells](/images/schichtenmodell_erklaerung.png)
 
 <h2>Wie arbeitet ein Hub?</h2>
 
@@ -63,7 +63,7 @@ Heutzutage haben wir Switches und Hubs die das Ethernet viel einfacher machen.
 
 * Es kommt zu vielen Kollisionen
 
-![Wie arbeitet ein Hub?](../images/arbeitsweise_hub.png)
+![Wie arbeitet ein Hub?](/images/arbeitsweise_hub.png)
 
 <h2>Wie arbeitet ein Switch?</h2>
 
@@ -81,7 +81,7 @@ Heutzutage haben wir Switches und Hubs die das Ethernet viel einfacher machen.
 
 * Bei einem Switch können quasi keine Kollisionen mehr stattfinden
 
-![Wie arbeitet ein Switch?](../images/funktionsweise_switch.png)
+![Wie arbeitet ein Switch?](/images/funktionsweise_switch.png)
 
 <h2>Arbeitsweise eines Switchs</h2>
 
@@ -91,4 +91,4 @@ Heutzutage haben wir Switches und Hubs die das Ethernet viel einfacher machen.
 
 <h2>SAT</h2>
 
-![Wie arbeitet ein Switch?](../images/sat_tabelle.png)
+![Wie arbeitet ein Switch?](/images/sat_tabelle.png)
