@@ -49,5 +49,46 @@ Heutzutage haben wir Switches und Hubs die das Ethernet viel einfacher machen.
 
 ![Erklärung des Schichtenmodells](../images/schichtenmodell_erklaerung.png)
 
-<h2>Das Prinzip der Kapsellung</h2>
+<h2>Wie arbeitet ein Hub?</h2>
 
+<h4>Die Nachricht von PC-A ist an PC-B adressiert. Der Hub wird jedoch das Packet an alle angeschlossene PCs senden.</h4>
+
+* «Sharedmedium» Prinzip
+
+* Das Medium ist Belegt
+
+* Alle anderen müssen warten
+
+* Der Datendurchsatz ist nicht sohoch
+
+* Es kommt zu vielen Kollisionen
+
+![Wie arbeitet ein Hub?](../images/arbeitsweise_hub.png)
+
+<h2>Wie arbeitet ein Switch?</h2>
+
+<h4>Die Nachricht von PC-A ist an PC-B adressiert. Der Hub wird jedoch das Packet an alle angeschlossene PCs senden.</h4>
+
+* Dot-Matrix-Logik 
+
+* Dedizierte Leitung von A zu D
+
+* B und C könnten gleichzeitig Kommunizieren
+
+* Es sind also mehrerer parallele Verbindungen möglich
+
+* Jedes angeschlossene Gerät bildetseine eigene Kollisionsdomäne(Mikrosegmentierung)
+
+* Bei einem Switch können quasi keine Kollisionen mehr stattfinden
+
+![Wie arbeitet ein Switch?](../images/funktionsweise_switch.png)
+
+<h2>Arbeitsweise eines Switchs</h2>
+
+<h4>Der Switch ist nach dem erstmaligen Einschalten noch nicht in der Lage, dedizierte Verbindungen herzustellen! Denn er betreibt eine SAT, sogenannt «Source AddressTable»</h4>
+
+![Wie arbeitet ein Switch?](../images/Arbeitsweise_switch.png)
+
+<h2>SAT</h2>
+
+![Wie arbeitet ein Switch?](../images/sat_tabelle.png)
