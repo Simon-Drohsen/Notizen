@@ -47,7 +47,7 @@ Heutzutage haben wir Switches und Hubs die das Ethernet viel einfacher machen.
 
 ![Schichtenmodell](../images/schichtenmodell_m117.png)
 
-![Erklärung des Schichtenmodells](../images/Schichtenmodell_erkla%CC%88rung.png)
+![Erklärung des Schichtenmodells](../images/schichtenmodell_erklaerung.png)
 
 <h2>Das Prinzip der Kapsellung</h2>
 
