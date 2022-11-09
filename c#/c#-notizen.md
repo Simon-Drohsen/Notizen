@@ -26,7 +26,7 @@
 
 * Math.Sqrt() – findet die Quadratwurzel einer Zahl. Beispiel: Math.Sqrt(16) gibt 4 zurück.
 
-* Math.Floor() – rundet das angegebene Double oder die Dezimalzahl auf die nächste ganze Zahl ab. Beispiel: Math.Floor(8.65) gibt 8 zurück.
+* Math.Round() – rundet das angegebene Double oder die Dezimalzahl auf die nächste ganze Zahl ab. Beispiel: Math.Floor(8.65) gibt 8 zurück.
 
 * Math.Min() – gibt die kleinere von zwei Zahlen zurück. Beispiel: Math.Min(39, 12) gibt 12 zurück.
 
