@@ -87,7 +87,7 @@ Heutzutage haben wir Switches und Hubs die das Ethernet viel einfacher machen.
 
 <h4>Der Switch ist nach dem erstmaligen Einschalten noch nicht in der Lage, dedizierte Verbindungen herzustellen! Denn er betreibt eine SAT, sogenannt «Source AddressTable»</h4>
 
-![Wie arbeitet ein Switch?](../images/Arbeitsweise_switch.png)
+![Wie arbeitet ein Switch?](/images/arbeitsweise_switch.png)
 
 <h2>SAT</h2>
 
