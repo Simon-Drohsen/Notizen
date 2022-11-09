@@ -1,14 +1,14 @@
 <h1>Ethernet</h1>
 
-<h2>a)Was versteht man unter Ethernet?</h2>
+<h2>A) Was versteht man unter Ethernet?</h2>
 
 * Ethernet ist eine Technolgie die zum verbinden von Computern oder Netzwerken dient.
 
-<h2>b)Wie hat alles angefangen?</h2>
+<h2>B) Wie hat alles angefangen?</h2>
 
 Ethernet wurde als Bustopologie erfunden. Das heisst wenn ein Gerät die Verbindung unterbrach war das ganze Netzwerk tot.
 
-<h2>c)Weiterentwicklung bis heute?</h2>
+<h2>C) Weiterentwicklung bis heute?</h2>
 
 Heutzutage haben wir Switches und Hubs die das Ethernet viel einfacher machen.
 
