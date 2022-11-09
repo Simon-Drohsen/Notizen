@@ -45,9 +45,9 @@ Heutzutage haben wir Switches und Hubs die das Ethernet viel einfacher machen.
 
 <h2>Wie ist das Osi Modell aufgebaut?</h2>
 
-![Schichtenmodell](./images/schichtenmodell_m117.png)
+![Schichtenmodell](.../images/schichtenmodell_m117.png)
 
-![Erklärung des Schichtenmodells](./images/schichtenmodell_erklaerung.png)
+![Erklärung des Schichtenmodells](.../images/schichtenmodell_erklaerung.png)
 
 <h2>Das Prinzip der Kapsellung</h2>
 
