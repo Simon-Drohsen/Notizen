@@ -27,3 +27,25 @@
 * Mit der Eigenschaft .onclick kann einem DOM-Element auf der Grundlage eines Klick-Ereignisses Interaktivität hinzugefügt werden.
 
 * Die Eigenschaft .children gibt eine Liste der Kinder eines Elements zurück, und die Eigenschaft .parentNode gibt den nächsten verbundenen Knoten des Elements in Richtung der Wurzel zurück.
+
+* Handlebars ist eine externe Bibliothek, mit der Vorlagen erstellt werden können, die eine Mischung aus HTML, Text und Ausdrücken sind.
+
+* Handlebars verwendet Ausdrücke, die in doppelte geschweifte Klammern eingeschlossen sind, wie: {{someVariable}}
+
+* Ein Skript-Tag mit dem Typ "text/x-handlebars-template" wird verwendet, um eine Vorlage an den Browser zu übergeben.
+
+* Handlebar.compile() gibt eine Template-Funktion aus einem Template-Skript zurück, das für Handlebars bestimmt ist.
+
+* Ein Template, das mit .compile() erstellt wird, nimmt ein Objekt als Argument und verwendet es als Kontext, um einen String mit HTML zu erzeugen.
+
+* Handlebars verfügt über eingebaute Block-Helfer, die in ein Handlebars-Skript eingefügt werden können.
+
+* Block-Helfer haben einen Anfangsausdruck und einen Endausdruck. Der Anfangsausdruck enthält ein # vor einem Schlüsselwort. Der Endausdruck hat das gleiche Schlüsselwort, aber mit einem /-Zeichen, um das Ende zu kennzeichnen.
+
+* Der {{if}}-Ausdruck gibt einen Codeblock bedingt wieder.
+
+* Ein {{else}}-Ausdruck kann in einen if-Hilfsblock eingefügt und als Teil der bedingten Anweisung verwendet werden.
+
+* {{each}} ist ein weiterer eingebauter Hilfsausdruck, der ein Array zur Iteration akzeptiert.
+
+* In den Block-Helper-Funktionen gibt der {{this}}-Ausdruck den Kontext an und dient als Platzhalter für den aktuellen Wert.
