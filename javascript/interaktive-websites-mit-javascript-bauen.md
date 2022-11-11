@@ -49,3 +49,25 @@
 * {{each}} ist ein weiterer eingebauter Hilfsausdruck, der ein Array zur Iteration akzeptiert.
 
 * In den Block-Helper-Funktionen gibt der {{this}}-Ausdruck den Kontext an und dient als Platzhalter für den aktuellen Wert.
+
+* Das Objekt, zu dem eine Methode gehört, wird das aufrufende Objekt genannt.
+
+* Das Schlüsselwort this bezieht sich auf das aufrufende Objekt und kann verwendet werden, um auf Eigenschaften des aufrufenden Objekts zuzugreifen.
+
+* Methoden haben nicht automatisch Zugriff auf andere interne Eigenschaften des aufrufenden Objekts.
+
+* Der Wert von this hängt davon ab, woher der Zugriff auf this erfolgt.
+
+* Wir können Pfeilfunktionen nicht als Methoden verwenden, wenn wir auf andere interne Eigenschaften zugreifen wollen.
+
+* JavaScript-Objekte haben keine eingebaute Privatsphäre, sondern es gibt Konventionen, die man befolgen muss, um andere Entwickler über die Absicht des Codes zu informieren.
+
+* Die Verwendung eines Unterstrichs vor einem Eigenschaftsnamen bedeutet, dass der ursprüngliche Entwickler nicht beabsichtigt hat, diese Eigenschaft direkt zu ändern.
+
+* Setter- und Getter-Methoden ermöglichen detailliertere Möglichkeiten des Zugriffs auf und der Zuweisung von Eigenschaften.
+
+* Factory-Funktionen ermöglichen es, Objektinstanzen schnell und wiederholt zu erstellen.
+
+* Es gibt verschiedene Möglichkeiten, die Objektdestrukturierung zu verwenden: eine Möglichkeit ist die Kurzschrift für Eigenschaftswerte, eine andere die destrukturierte Zuweisung.
+
+* Wie bei jedem Konzept ist es gut zu lernen, wie man die Dokumentation mit Objekten verwendet!* 
