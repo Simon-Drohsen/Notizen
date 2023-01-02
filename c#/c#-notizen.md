@@ -279,5 +279,3 @@ bool isEven(int num) => num % 2 == 0;.
 * LINQ kann neben anderen Datentypen auch auf Arrays und Listen angewendet werden.
 
 * Man kann Klassen erstellen, damit der Code übersichtlicher wird.
-
-* 
