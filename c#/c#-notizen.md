@@ -8,7 +8,7 @@
 
 * Der Befehl Console.ReadLine() erfasst Benutzereingaben in der Konsole.
 
-* Kommentare sind Codezeilen, die von Ihrem Computer ignoriert werden. Sie sollen stattdessen von Entwicklern gelesen werden. Mann kann sie mit // oder /* und */ machen.
+* Kommentare sind Codezeilen, die von Ihrem Computer ignoriert werden. Sie sollen stattdessen von Entwicklern gelesen werden. Mann kann sie mit // oder /*und*/ machen.
 
 <h2>Ein paar Befehle sind:</h2>
 
@@ -106,12 +106,11 @@
 
 * out-Parameter können verwendet werden, um mehrere Werte von einer Methode zurückzugeben.
 
-<h3>Ausdruckskörper-Definitionen können für einzeilige Methodenkörper verwendet werden:</h3>
+<h3> Ausdruckskörper-Definitionen können für einzeilige Methodenkörper verwendet werden:</h3>
 
 bool isEven(int num) => num % 2 == 0;.
 
 <h3>Lambda-Ausdrücke können verwendet werden, um eine anonyme Methode zu erstellen:</h3>
-
 
 * bool hasEvenNumbers = Array.Exists(numbers, (int num) => num % 2 == 0 );.
 
@@ -119,12 +118,10 @@ bool isEven(int num) => num % 2 == 0;.
 
 <h3>Man kann den Parametertyp entfernen, wenn er abgeleitet werden kann:</h3>
 
-  
 * bool hasEvenNumbers = Array.Exists(numbers, (num) => num % 2 == 0 );.
 
 <h3>Man kann die Klammern entfernen, wenn es einen Parameter gibt:</h3>
   
-
 * bool hasEvenNumbers = Array.Exists(numbers, num => num % 2 == 0 );.
 
 * Datenstrukturen und wie wir sie nutzen können, um unsere Daten besser zu organisieren.
@@ -280,3 +277,7 @@ bool isEven(int num) => num % 2 == 0;.
 * Der from-Operator deklariert eine Bereichsvariable, die zum Durchlaufen der Sequenz verwendet wird.
 
 * LINQ kann neben anderen Datentypen auch auf Arrays und Listen angewendet werden.
+
+* Man kann Klassen erstellen, damit der Code übersichtlicher wird.
+
+* 
