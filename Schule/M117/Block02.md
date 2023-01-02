@@ -79,7 +79,7 @@ Heutzutage haben wir Switches und Hubs die das Ethernet viel einfacher machen.
 
 * Bei einem Switch können quasi keine Kollisionen mehr stattfinden
 
-![Wie arbeitet ein Switch?](/images/funktionsweise_switch.png)
+![Wie arbeitet ein Switch?](/images/switch_funktionsweise.png)
 
 <h2>Arbeitsweise eines Switchs</h2>
 
