@@ -15,3 +15,5 @@
 * "SRV-Records" ermöglicht die Definition zur Verfügbarkeit von Dienste und Anwendungen.
 
 * "TXT-Records" bedeutet eine frei wählbare Textdatei zu erstellen.
+
+* "SPF-Records" prüfen ob eine IP-Adresse autorisiert ist, für die betreffende Domain E-Mails zu versenden.
