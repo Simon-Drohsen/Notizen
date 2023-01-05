@@ -1,6 +1,6 @@
 <h1>Javascript Classes</h1>
 
-3 Klassen sind Vorlagen für Objekte.
+* Klassen sind Vorlagen für Objekte.
 
 * Javascript ruft eine Konstruktormethode auf, wenn wir eine neue Instanz einer Klasse erstellen.
 

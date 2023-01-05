@@ -279,3 +279,7 @@ bool isEven(int num) => num % 2 == 0;.
 * LINQ kann neben anderen Datentypen auch auf Arrays und Listen angewendet werden.
 
 * Man kann Klassen erstellen, damit der Code übersichtlicher wird.
+  
+* Mit TryParse wird automatisch geschaut ob man das eingegeben hatt was man sollte. Wenn nicht wird nachgefragt.
+  
+* DateTime ist sehr nützlich wenn man ein Datum ausgeben möchte.
