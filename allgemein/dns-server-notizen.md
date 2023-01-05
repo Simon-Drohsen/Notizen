@@ -12,6 +12,6 @@
 
 * "NS-Record" bedeutet einen Nameserver für eine Domain festzulegen.
 
-* "SRV-Records" bedeutet es zu ermöglichen die Definition zur Verfügbarkeit von Dienste und Anwendungen.
+* "SRV-Records" ermöglicht die Definition zur Verfügbarkeit von Dienste und Anwendungen.
 
 * "TXT-Records" bedeutet eine frei wählbare Textdatei zu erstellen.
