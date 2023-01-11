@@ -39,3 +39,13 @@
 * Die Operationen rechts vom Zuweisungsoperator werden ausgewertet, bevor die Zuweisung erfolgt.
 
 * Der Verkettungsoperator (.=) ist eine Kurzschreibweise für die Neuzuweisung einer String-Variablen an ihren aktuellen Wert, an den ein anderer String-Wert angehängt wird.
+
+* PHP hat zwei Datentypen: Ganzzahlen und Fließkommazahlen
+
+* Wir können arithmetische Operatoren verwenden, um mathematische Operationen durchzuführen:
+
+* Operationen haben eine Rangfolge, d. h. bestimmte Arten von Operationen in einer Kette werden vor anderen ausgewertet: Zuerst wird jede Operation ausgewertet, die in Klammern (()) eingeschlossen ist, dann Exponenten (**), dann Multiplikation (*) und Division (/) und schließlich Addition (+) und Subtraktion (-).
+
+* Wir können Variablen Zahlenwerte zuweisen und dann numerische Operationen mit ihnen durchführen.
+
+* Bei der Neuzuweisung von Zahlenvariablen können wir mathematische Zuweisungsoperatoren als Abkürzung verwenden:
