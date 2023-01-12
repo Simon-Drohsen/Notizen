@@ -129,3 +129,15 @@
 * Der Operator union (+) nimmt zwei Array-Operanden und gibt ein neues Array zurück, bei dem alle eindeutigen Schlüssel des zweiten Arrays an das erste Array angehängt werden.
 
 * Wenn wir eine Funktion mit Array-Parametern schreiben, können wir das Array als Wert oder als Referenz übergeben, je nach unserer Absicht.
+
+* Das Front-End einer Website besteht aus JavaScript, CSS, HTML, Bildern und anderen statischen Elementen, die an den Client gesendet werden.
+
+* Wenn wir zu einer Website navigieren, ist der Browser der Client und sendet eine Anfrage an das Back-End, um alle für die Anzeige und Interaktion mit der Website erforderlichen Elemente zu erhalten.
+
+* Das Back-End besteht aus einem Webserver und der gesamten Logik und den Daten, die zur Erstellung und Pflege einer Website oder Webanwendung erforderlich sind.
+
+* PHP ist eine Backend-Sprache.
+
+* PHP kann zur Erzeugung von HTML-Dateien verwendet werden.
+
+* Wir betten PHP-Skripte in HTML ein, indem wir PHP-Code zwischen den öffnenden (<?php) und schließenden (?>) Tags einfügen.
