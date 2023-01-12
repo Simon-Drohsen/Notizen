@@ -88,7 +88,7 @@
 
 * Wir können geordnete Arrays mit einer eingebauten PHP-Funktion konstruieren: array().
 
-* Wir können geordnete Arrays mit der kurzen Array-Syntax konstruieren, z.B. [1,2,3]. 
+* Wir können geordnete Arrays mit der kurzen Array-Syntax konstruieren, z.B. [1,2,3].
 
 * Wir können Arrays mit der eingebauten Funktion print_r() ausdrucken oder sie mit der Funktion implode() in Strings umwandeln.
 
