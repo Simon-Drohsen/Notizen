@@ -73,3 +73,37 @@
 * Variablen innerhalb von Funktionen haben einen lokalen Geltungsbereich und können nicht von außerhalb der Funktion angesprochen werden.
 
 * Verwenden Sie das Schlüsselwort global, um Variablen aus dem globalen Bereich innerhalb einer Funktion zu verwenden.
+
+* Built-in Funktionen sind Funktionen von PHP.
+
+* Die Funktoinen folgen nicht dem normalen naming scheme.
+
+* Arrays sind geordnete Datensammlungen, die eine grundlegende Datenstruktur in der Informatik darstellen.
+
+* In PHP bezeichnen wir diese Datenstruktur als geordnete Arrays.
+
+* Die Position eines Elements in einem Array wird als sein Index bezeichnet.
+
+* Die Elemente in einem geordneten Array sind in aufsteigender numerischer Reihenfolge angeordnet, beginnend mit Index Null.
+
+* Wir können geordnete Arrays mit einer eingebauten PHP-Funktion konstruieren: array().
+
+* Wir können geordnete Arrays mit der kurzen Array-Syntax konstruieren, z.B. [1,2,3]. 
+
+* Wir können Arrays mit der eingebauten Funktion print_r() ausdrucken oder sie mit der Funktion implode() in Strings umwandeln.
+
+* Wir verwenden eckige Klammern ([]), um auf Elemente in einem Array über ihren Index zuzugreifen.
+
+* Wir können Elemente an das Ende eines Arrays anfügen, indem wir eckige Klammern ([]) an den Namen einer Array-Variablen anhängen und den Wert mit dem Zuweisungsoperator (=) zuweisen.
+
+* Mit Hilfe der Array-Indizierung und des Zuweisungsoperators können Sie Elemente in einem Array ändern.
+
+* Mit der Funktion array_pop() wird das letzte Element eines Arrays entfernt.
+
+* Die Funktion array_push() fügt Elemente an das Ende eines Arrays hinzu.
+
+* Die Funktion array_shift() entfernt das erste Element eines Arrays.
+
+* Die Funktion array_unshift() fügt Elemente an den Anfang des Arrays hinzu.
+
+* Wir können verkettete eckige Klammern ([]) verwenden, um auf Elemente innerhalb eines verschachtelten Arrays zuzugreifen und diese zu ändern.
