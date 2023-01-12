@@ -88,7 +88,7 @@
 
 * Wir können geordnete Arrays mit einer eingebauten PHP-Funktion konstruieren: array().
 
-* Wir können geordnete Arrays mit der kurzen Array-Syntax konstruieren, z.B. [1,2,3].
+* Wir können geordnete Arrays mit der kurzen Array-Syntax konstruieren, z.B. \[1,2,3].
 
 * Wir können Arrays mit der eingebauten Funktion print_r() ausdrucken oder sie mit der Funktion implode() in Strings umwandeln.
 
@@ -107,3 +107,25 @@
 * Die Funktion array_unshift() fügt Elemente an den Anfang des Arrays hinzu.
 
 * Wir können verkettete eckige Klammern ([]) verwenden, um auf Elemente innerhalb eines verschachtelten Arrays zuzugreifen und diese zu ändern.
+
+* Assoziative Arrays sind Datenstrukturen, in denen String- oder Integer-Schlüssel mit Werten verbunden sind.
+
+* Wir verwenden den Operator =>, um einen Schlüssel mit seinem Wert zu verknüpfen. $my_array = ["panda"=>"sehr süß"]
+
+* Um die Schlüssel eines Arrays und ihre Werte zu drucken, können wir die Funktion print_r() verwenden.
+
+* Wir greifen auf den Wert zu, der mit einem bestimmten Schlüssel verbunden ist, indem wir eckige Klammern ([ ]) verwenden. Zum Beispiel: $my_array\["panda"] gibt "very cute" zurück.
+
+* Mit der gleichen Indizierungssyntax und dem Zuweisungsoperator (=) können wir den Schlüsseln Werte zuweisen: $my_array\["dog"] = "good cuteness";
+
+* Dieselbe Syntax kann verwendet werden, um bestehende Elemente zu ändern. $my_array\["Hund"] = "maximale Niedlichkeit";
+
+* Mit der PHP-Funktion unset() können wir ein Schlüssel=>Wert-Paar vollständig entfernen.
+
+* Schlüssel können ganze Zahlen sein. Geordnete Arrays sind eigentlich nur Arrays, in denen den Werten automatisch Integer-Schlüssel zugewiesen wurden.
+
+* In PHP sind assoziative Arrays und geordnete Arrays unterschiedliche Verwendungen desselben Datentyps.
+
+* Der Operator union (+) nimmt zwei Array-Operanden und gibt ein neues Array zurück, bei dem alle eindeutigen Schlüssel des zweiten Arrays an das erste Array angehängt werden.
+
+* Wenn wir eine Funktion mit Array-Parametern schreiben, können wir das Array als Wert oder als Referenz übergeben, je nach unserer Absicht.
