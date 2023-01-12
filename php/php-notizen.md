@@ -48,4 +48,28 @@
 
 * Wir können Variablen Zahlenwerte zuweisen und dann numerische Operationen mit ihnen durchführen.
 
-* Bei der Neuzuweisung von Zahlenvariablen können wir mathematische Zuweisungsoperatoren als Abkürzung verwenden:
+* Bei der Neuzuweisung von Zahlenvariablen können wir mathematische Zuweisungsoperatoren als Abkürzung verwenden.
+
+* Wir können eine Reihe von Anweisungen in einer benannten Funktion zusammenfassen und jederzeit wiederverwenden.
+
+* Wenn wir eine Funktion aufrufen, führt der Computer den Funktionskörper aus, der durch den Codeblock nach der Parameterliste angegeben wird.
+
+* Funktionen können einen Wert zurückgeben, indem sie das Schlüsselwort return verwenden, andernfalls geben sie NULL zurück, was keinen Wert bedeutet.
+
+* Der Rückgabewert einer Funktion kann in einer Variablen gespeichert oder auf jede andere Weise verwendet werden.
+
+* Wir können Funktionen mit Parametern definieren, die Variablen sind, auf die wir uns im gesamten Funktionskörper beziehen können.
+
+* Beim Aufrufen von Funktionen werden die Werte, die wir ihnen geben, als Argumente bezeichnet.
+
+* Funktionen können mehrere Parameter haben.
+
+* Die Reihenfolge, in der die Argumente übergeben werden, bestimmt, welchen Parametern sie entsprechen.
+
+* Sie können ein Argument optional machen, indem Sie den entsprechenden Parameter mit einem Standardwert versehen.
+
+* Wenn Sie einem Parameter das Referenzzeichen (&) voranstellen, wird das Argument per Referenz übergeben.
+
+* Variablen innerhalb von Funktionen haben einen lokalen Geltungsbereich und können nicht von außerhalb der Funktion angesprochen werden.
+
+* Verwenden Sie das Schlüsselwort global, um Variablen aus dem globalen Bereich innerhalb einer Funktion zu verwenden.
