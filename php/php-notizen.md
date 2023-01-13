@@ -222,3 +222,17 @@
 * break wird verwendet, um die Ausführung einer Schleife vorzeitig zu beenden.
 
 * continue wird verwendet, um die Ausführung einer Schleifeniteration vorzeitig zu beenden und mit der nächsten Iteration fortzufahren.
+
+* Die PHP-Kurzschrift für Schleifen verwendet einen Doppelpunkt (:) anstelle einer Klammer ({), um den Codeblock zu öffnen.
+
+* Die Kurzschrift verwendet Schlüsselwörter zum Schließen des Codeblocks anstelle einer Klammer (}):
+
+* Verwenden Sie endfor, um eine for-Schleife zu schließen.
+
+* Verwenden Sie endforeach, um eine foreach-Schleife zu schließen.
+
+* Verwenden Sie endwhile, um eine while-Schleife zu schließen.
+
+* Das abschließende Schlüsselwort muss von einem Semikolon (;) gefolgt werden.
+
+* Vergewissern Sie sich, dass Sie mit <?php oder der Echo-Verknüpfung <?= wieder in den PHP-Modus wechseln, bevor Sie PHP-Variablen in der Schleife verwenden.
