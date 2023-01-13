@@ -189,3 +189,36 @@
 * Jeder Wert oder Ausdruck innerhalb einer Bedingung wird in TRUE oder FALSE umgewandelt. Wir betrachten Werte, die in TRUE umgewandelt werden, als wahrheitsgemäß und Werte, die in FALSE umgewandelt werden, als falsch.
 
 * Mit der Funktion readline() können wir Benutzereingaben vom Terminal abrufen.
+
+
+* Durch die Verschachtelung von Bedingungen ineinander können wir Verzweigungsentscheidungen treffen.
+
+* Der logische Operator || nimmt zwei verschiedene boolesche Werte oder Ausdrücke als Operanden und gibt einen einzigen booleschen Wert zurück. Er gibt TRUE zurück, wenn entweder sein linker Operand oder sein rechter Operand TRUE ergibt.
+
+* Der logische Operator && gibt nur TRUE zurück, wenn beide Operanden TRUE ergeben. Er gibt FALSE zurück, wenn einer oder beide seiner Operanden FALSE ergeben.
+
+* Der logische Operator not (!) nimmt nur einen rechten Operanden an. Er kehrt den booleschen Wert seines Operanden um.
+
+* Der logische Exklusiv-Oder-Operator (xor) gibt nur dann TRUE zurück, wenn entweder sein linker oder sein rechter Operand TRUE ergibt, aber nicht beide oder keiner von beiden.
+
+* PHP bietet eine alternative Syntax für die Operatoren || und &&: Wir können or anstelle von || und and anstelle von && verwenden. Diese Operatoren funktionieren auf die gleiche Weise, haben aber eine andere Rangfolge.
+
+* Mit include können wir Code aus einer Datei in eine andere einbinden, was es uns ermöglicht, modulare Programme zu schreiben.
+
+* while-Schleifen werden nur so lange ausgeführt, wie ihre Bedingung TRUE ergibt.
+
+* do...while-Schleifen werden immer mindestens einmal ausgeführt und setzen dann die Ausführung fort, solange ihre Bedingung TRUE ist.
+
+* for-Schleifen enthalten 3 Ausdrücke und werden häufig verwendet, um einen Codeblock eine bestimmte Anzahl von Malen auszuführen.
+
+* Der erste Ausdruck wird vor der ersten Iteration ausgeführt.
+
+* Der zweite Ausdruck wird vor jeder Iteration ausgewertet. Wenn TRUE, wird der Codeblock ausgeführt. Andernfalls wird die Schleife abgebrochen.
+
+* Der dritte Ausdruck wird nach jeder Iteration ausgewertet.
+
+* foreach-Schleifen werden verwendet, um über die Elemente eines Arrays zu iterieren. Der Schlüssel und der Wert jedes Elements sind im Codeblock verfügbar.
+
+* break wird verwendet, um die Ausführung einer Schleife vorzeitig zu beenden.
+
+* continue wird verwendet, um die Ausführung einer Schleifeniteration vorzeitig zu beenden und mit der nächsten Iteration fortzufahren.
