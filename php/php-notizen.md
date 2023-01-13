@@ -141,3 +141,51 @@
 * PHP kann zur Erzeugung von HTML-Dateien verwendet werden.
 
 * Wir betten PHP-Skripte in HTML ein, indem wir PHP-Code zwischen den öffnenden (<?php) und schließenden (?>) Tags einfügen.
+
+* <?= ist die Kurzform für <?php echo.
+
+* PHP bietet Superglobale, auf die überall im Skript zugegriffen werden kann.
+
+* $_GET ist ein assoziatives Array, das Daten aus einer GET-Anfrage enthält.
+
+* $_POST ist ein assoziatives Array, das Daten von einer POST-Anfrage enthält.
+
+* $_REQUEST ist ein assoziatives Array, das Daten sowohl von GET- als auch von POST-Anfragen enthält. Es sollte nur verwendet werden, wenn es Ihnen egal ist, welche Methode verwendet wurde.
+
+* Die Array-Schlüssel in den PHP-Anfrage-Superglobalen werden durch die Namensattribute im HTML-Formular festgelegt, die eindeutig sein müssen.
+
+* Das action-Attribut wird verwendet, um anzugeben, welche Datei die Daten aus der Formularanfrage verarbeiten soll.
+
+* Mit Hilfe von Konditionalen können Programme entscheiden, wie sie auf eine Vielzahl von Situationen reagieren sollen.
+
+* if-Anweisungen ermöglichen es uns, einen Codeblock auszuführen, wenn eine Bedingung erfüllt ist.
+
+* Der boolesche Datentyp hat entweder den Wert TRUE oder FALSE und ist die Grundlage der programmatischen Entscheidungsfindung.
+
+* Mit else wird ein Codeblock eingefügt, der ausgeführt wird, wenn die Bedingung nicht erfüllt ist.
+
+* Vergleichsoperatoren bewerten eine Beziehung zwischen zwei Operanden und geben einen booleschen Wert zurück.
+
+* Der Kleiner-als-Operator (<)
+
+* Der Operator kleiner als oder gleich (<=)
+
+* Der Operator größer als (>)
+
+* Der Operator "größer als" oder "gleich" (>=)
+
+* Der Identisch-Operator (===)
+
+* Der nicht identische Operator (!==)
+
+* Mit der elseif-Konstruktion können wir Konditionale mit mehreren if-Anweisungen schreiben.
+
+* Anstatt eine Reihe von if-Anweisungen zu verwenden, wenn wir einen Wert, einen Ausdruck oder eine Variable mit vielen verschiedenen möglichen Werten vergleichen und je nach Übereinstimmung unterschiedlichen Code ausführen wollen, können wir eine switch-Anweisung verwenden.
+
+* Das Schlüsselwort break weist den Computer an, die switch-Anweisung zu verlassen. Ohne dieses Schlüsselwort wird der Rest der switch-Anweisung durchlaufen, wobei der gesamte Code ausgeführt wird, bis ein break oder das Ende der Anweisung erreicht wird.
+
+* Ein ternärer Operator (?:) ist ein Kurzzeichen für einen Bedingungsoperator. Er benötigt drei Operanden (eine zu prüfende Bedingung, einen Ausdruck, der zurückgegeben wird, wenn die Bedingung TRUE ist, und einen Ausdruck, der zurückgegeben wird, wenn die Bedingung FALSE ist).
+
+* Jeder Wert oder Ausdruck innerhalb einer Bedingung wird in TRUE oder FALSE umgewandelt. Wir betrachten Werte, die in TRUE umgewandelt werden, als wahrheitsgemäß und Werte, die in FALSE umgewandelt werden, als falsch.
+
+* Mit der Funktion readline() können wir Benutzereingaben vom Terminal abrufen.
