@@ -236,3 +236,41 @@
 * Das abschließende Schlüsselwort muss von einem Semikolon (;) gefolgt werden.
 
 * Vergewissern Sie sich, dass Sie mit <?php oder der Echo-Verknüpfung <?= wieder in den PHP-Modus wechseln, bevor Sie PHP-Variablen in der Schleife verwenden.
+
+* Moderne Websites benötigen eine Vielzahl von Informationen von ihren Nutzern, und viele dieser Informationen werden über HTML-Formulare erfasst.
+
+* Es ist wichtig, die über Formulare übermittelten Daten zu validieren, um die Sicherheit von Websites zu gewährleisten und sicherzustellen, dass sie korrekt funktionieren.
+
+* Reguläre Ausdrücke sind Zeichenfolgen, die Muster definieren, nach denen im Text gesucht werden soll. Sie sind ein wichtiges Werkzeug für die Validierung von Eingaben.
+
+* Modernes HTML verfügt über nützliche integrierte Methoden zur Formularvalidierung.
+
+* Benutzerdefinierte und komplizierte Client-seitige Validierung kann mit JavaScript durchgeführt werden.
+
+* Asynchrone Anfragen an den Server können Back-End-Validierungen durchführen, bevor ein Formular abgeschickt wird.
+
+* Eine abschließende Back-End-Validierung aller Daten ist erforderlich, um die Sicherheit einer Anwendung zu gewährleisten und alle Daten zu säubern.
+
+* Die Durchführung von Back-End-Formularvalidierungen an den übermittelten Daten ist ein wesentlicher Schritt zum Schutz unserer Website und ihrer Benutzer.
+
+* Die Verwendung des POST-Methodenattributs in einem HTML-Formular gibt unserem PHP-Skript Zugriff auf die Daten, die in dem superglobalen assoziativen Array $_POST übermittelt werden.
+
+* Wir ändern unser HTML- und PHP-Skript so, dass dem Benutzer eine aussagekräftige Rückmeldung angezeigt wird, wenn die Eingabe als ungültig eingestuft wird.
+
+* Wenn wir planen, Benutzereingaben anzuzeigen, müssen wir sie zunächst bereinigen. Wir können Methoden wie trim() und htmlspecialchars() für die grundlegende Bereinigung verwenden.
+
+* Wir können filter_var() mit einem Filter verwenden, um gängige Eingabetypen zu bereinigen.
+
+* Wir können auch filter_var() mit einem Filter verwenden, um Validierungen für gängige Eingabetypen durchzuführen.
+
+* Wir werden oft benutzerdefinierte Überprüfungen durchführen wollen.
+
+* Die Funktion preg_match() vergleicht, ob eine gegebene Zeichenkette mit einem regulären Ausdruck übereinstimmt.
+
+* Da Vergleiche mit regulären Ausdrücken viel Rechenleistung verbrauchen können, ist es sinnvoll, die Länge der Eingaben zu überprüfen, bevor die Prüfungen mit regulären Ausdrücken durchgeführt werden.
+
+* Es ist üblich, Validierungen durch den Vergleich von Benutzereingaben mit Backend-Daten durchzuführen
+
+* Bevor wir die Benutzereingaben in unserem Backend speichern, werden wir sie aus Gründen der Sicherheit und der einheitlichen Formatierung bereinigen
+
+* Wenn das Formular eines Benutzers akzeptiert wurde, können wir ihn auf eine andere Seite umleiten.
