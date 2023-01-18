@@ -190,7 +190,6 @@
 
 * Mit der Funktion readline() können wir Benutzereingaben vom Terminal abrufen.
 
-
 * Durch die Verschachtelung von Bedingungen ineinander können wir Verzweigungsentscheidungen treffen.
 
 * Der logische Operator || nimmt zwei verschiedene boolesche Werte oder Ausdrücke als Operanden und gibt einen einzigen booleschen Wert zurück. Er gibt TRUE zurück, wenn entweder sein linker Operand oder sein rechter Operand TRUE ergibt.
