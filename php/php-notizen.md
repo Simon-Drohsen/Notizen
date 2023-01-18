@@ -294,11 +294,23 @@
 
 * Der Zugriff auf die Mitglieder eines Objekts erfolgt mit dem Objektoperator (->).
 
+* Mit einer if-Anweisung können wir überprüfen, ob eine Datenbankabfrage Ergebnisdaten zurückgegeben hat.
+
+* Die alternative Syntax von PHP bietet eine Alternative zum Einschließen von Blöcken in geschweifte Klammern, wodurch verschachtelte Blöcke leichter abgegrenzt werden können.
+
+* Die alternative Syntax kann sowohl mit if-Anweisungen als auch mit for-, while- und foreach-Schleifen verwendet werden.
+
+* Mit dem kurzen echo-Tag können wir prägnantere echo-Anweisungen schreiben.
+
+* Um PHP-Warnungen zu vermeiden, ist es eine gute Idee, eine Eigenschaft zu überprüfen, bevor man auf sie zugreift.
+
+* Die Überprüfung von Werten kann mit einem ternären Operator erfolgen, der drei Operanden benötigt, oder mit dem kürzeren null-coalescing-Operator, der zwei benötigt.
+
 <h2>Database</h2>
 
 * Databases store data for PHP applications.
 
-* PDO lets us write code that will work with many common database systems. 
+* PDO lets us write code that will work with many common database systems.
 
 * We write queries by inserting SQL into the query() method.
 
@@ -312,4 +324,4 @@
 
 * We use exception handling to catch and handle exceptions when our program throws them.
 
-* We can use methods on the exception object to troubleshoot exceptions. 
+* We can use methods on the exception object to troubleshoot exceptions.
