@@ -273,3 +273,23 @@
 * Bevor wir die Benutzereingaben in unserem Backend speichern, werden wir sie aus Gründen der Sicherheit und der einheitlichen Formatierung bereinigen
 
 * Wenn das Formular eines Benutzers akzeptiert wurde, können wir ihn auf eine andere Seite umleiten.
+
+* Klassen werden mit dem Schlüsselwort class definiert.
+
+* Innerhalb einer Klasse definierte Funktionen werden zu Methoden und Variablen innerhalb der Klasse werden als Eigenschaften betrachtet.
+
+* Es gibt drei Stufen der Sichtbarkeit von Klassenmitgliedern:
+
+* public (Standard) - von außerhalb der Klasse zugänglich
+
+* protected - nur innerhalb der Klasse oder ihrer Nachkommenschaft zugänglich
+
+* private - nur innerhalb der definierenden Klasse zugänglich
+
+* Mitglieder können als statisch definiert werden.
+
+* Auf statische Mitglieder wird mit dem Scope Resolution Operator (::) zugegriffen.
+
+* Klassen werden mit dem Schlüsselwort new zu Objekten instanziiert.
+
+* Der Zugriff auf die Mitglieder eines Objekts erfolgt mit dem Objektoperator (->).
