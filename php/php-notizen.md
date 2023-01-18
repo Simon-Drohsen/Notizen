@@ -293,3 +293,23 @@
 * Klassen werden mit dem Schlüsselwort new zu Objekten instanziiert.
 
 * Der Zugriff auf die Mitglieder eines Objekts erfolgt mit dem Objektoperator (->).
+
+<h2>Database</h2>
+
+* Databases store data for PHP applications.
+
+* PDO lets us write code that will work with many common database systems. 
+
+* We write queries by inserting SQL into the query() method.
+
+* SQL queries with user-defined parameters (variables) are vulnerable to SQL injection.
+
+* We use prepared statements to prevent SQL injection.
+
+* Prepared statements use the prepare() and execute() methods and send SQL commands and data separately.
+
+* For exception handling, we wrap code in a try/catch block.
+
+* We use exception handling to catch and handle exceptions when our program throws them.
+
+* We can use methods on the exception object to troubleshoot exceptions. 
