@@ -306,6 +306,48 @@
 
 * Die Überprüfung von Werten kann mit einem ternären Operator erfolgen, der drei Operanden benötigt, oder mit dem kürzeren null-coalescing-Operator, der zwei benötigt.
 
+* Verwenden Sie fopen mit dem richtigen Modus, um auf eine Datei zum Lesen, Schreiben oder Anhängen zuzugreifen.
+
+* Schließen Sie alle Dateien, die Sie nicht aktiv benutzen, mit fclose.
+
+* Lesen Sie Dateien mit fread oder file_get_contents.
+
+* Schreiben von Dateien mit fwrite oder file_put_contents.
+
+* Abrufen von Informationen über Dateien mit Operationen wie filesize und file_exists.
+
+* Fehler zu finden und zu diagnostizieren, indem man die Rückgabewerte von Funktionen überprüft, die Konsole auf Fehlermeldungen untersucht und Dateiinformationsfunktionen verwendet.
+
+* Mit Web-APIs haben wir ein Werkzeug, mit dem wir auf die Funktionen und Daten einer anderen Anwendung zugreifen können.
+
+* Es gibt zwei Haupttypen von APIs: Browser- und Drittanbieter-APIs.
+
+* Browser-APIs erfordern eine bestimmte Syntax und Berechtigungen.
+
+* Drittanbieter-APIs haben ihre eigenen Regeln und Anforderungen, die von den Organisationen festgelegt werden, die sie verwalten.
+
+* Wenn wir eine Anfrage an eine API stellen, müssen wir möglicherweise mehr Details zu den gewünschten Informationen angeben.
+
+* Wenn wir eine erfolgreiche Antwort erhalten, müssen wir noch entscheiden, wie wir die Antwortdaten nutzen wollen.
+
+* Bevor Sie eine API verwenden, sollten Sie ihre Dokumentation lesen. Achten Sie besonders darauf, wie sie Anfragen, Antworten und Fehler behandelt.
+
+* Abfragezeichenfolgen werden verwendet, um zusätzliche Informationen zusammen mit einer API-Anforderung bereitzustellen. Sie bestehen aus key-value-pairs, die an das Ende einer URL angehängt werden.
+
+* Die Funktion file_get_contents() kann zur Durchführung einfacher API-Anfragen in PHP verwendet werden. Wenn die Funktion mit einer Anfrage-URL aufgerufen wird, gibt sie die Antwort als String zurück - oder false, wenn die Anfrage erfolglos war.
+
+* Die Funktion json_decode() wird zum Parsen einer JSON-Antwort verwendet. Je nach dem zweiten Argument kann die Funktion entweder ein Objekt oder ein assoziatives Array zurückgeben.
+
+* Um Fehler in der API-Antwort zu behandeln, sollten Sie die Antwortdaten validieren, bevor Sie auf bestimmte Eigenschaften zugreifen.
+
+* Speichern Sie die Dienstleistungsbeschreibungen in den Tabellenzeilen mit dem Namen und den Preisen. Vielleicht sogar eine Schleife durch die Datenbankabfrageergebnisse, um die Blöcke auf der Dienstleistungsseite anzuzeigen!
+
+* Beenden Sie die Kontaktseite - betten Sie eine Karte des Salons ein und fügen Sie ein Kontaktformular hinzu, mit dem der Besitzer per E-Mail kontaktiert werden kann.
+
+* Erstellen Sie eine Anmeldeseite und eine Seite, auf der der Salonbesitzer die Preise aktualisieren kann.
+
+* Können Sie sich vorstellen, wie Sie eine neue Tabelle verwenden könnten, um Kunden die Möglichkeit zu geben, online einen Service zu buchen?
+
 <h2>Database</h2>
 
 * Databases store data for PHP applications.
