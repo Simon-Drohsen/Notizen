@@ -18,4 +18,4 @@
 16. [ÜKM216](https://github.com/Osaaro/Notizen/blob/8655bbcd80b9bda00d835bdeaec36fa49d305228/%C3%9CK/M216.md)
 17. [Design](https://github.com/Osaaro/Notizen/blob/main/Design/Design.md)
 18. [PHP](https://github.com/Osaaro/Notizen/blob/9f79af7ae4bd93d42145f5304e833ee731d88cef/php/php-notizen.md)
-19. [DNS Server Notizen]
+19. [DNS Server Notizen](https://github.com/Osaaro/Notizen/blob/b279c718c3dfb0ee710c1e687b02711ba09e5d2d/allgemein/dns-server-notizen.md)
