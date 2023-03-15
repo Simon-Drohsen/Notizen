@@ -350,20 +350,36 @@
 
 <h2>Database</h2>
 
-* Databases store data for PHP applications.
+* Datenbanken speichern Daten für PHP-Anwendungen.
 
-* PDO lets us write code that will work with many common database systems.
+* Mit PDO können wir Code schreiben, der mit vielen gängigen Datenbanksystemen funktioniert.
 
-* We write queries by inserting SQL into the query() method.
+* Wir schreiben Abfragen, indem wir SQL in die query()-Methode einfügen.
 
-* SQL queries with user-defined parameters (variables) are vulnerable to SQL injection.
+* SQL-Abfragen mit benutzerdefinierten Parametern (Variablen) sind anfällig für SQL-Injection.
 
-* We use prepared statements to prevent SQL injection.
+* Wir verwenden vorbereitete Anweisungen, um SQL-Injection zu verhindern.
 
-* Prepared statements use the prepare() and execute() methods and send SQL commands and data separately.
+* Vorbereitete Anweisungen verwenden die Methoden prepare() und execute() und senden SQL-Befehle und Daten getrennt.
 
-* For exception handling, we wrap code in a try/catch block.
+* Für die Behandlung von Ausnahmen umschließen wir den Code in einem try/catch-Block.
 
-* We use exception handling to catch and handle exceptions when our program throws them.
+* Wir verwenden die Ausnahmebehandlung, um Ausnahmen abzufangen und zu behandeln, wenn unser Programm sie auslöst.
 
-* We can use methods on the exception object to troubleshoot exceptions.
+* Wir können Methoden für das Ausnahmeobjekt verwenden, um Ausnahmen zu beheben.
+
+<h2>Composer</h2>
+
+* Der Composer ist ein Dependency-Manager für PHP.
+
+* Er erleichtert das Hinzufügen, Entfernen und Aktualisieren von Bibliotheken und Paketen in PHP-Projekten.
+
+* Der Composer nutzt eine zentrale Repository-Datenbank namens Packagist, in der Tausende von Paketen verfügbar sind.
+
+* Um den Composer zu verwenden, benötigt man eine composer.json-Datei, die die Abhängigkeiten des Projekts auflistet.
+
+* Der Composer installiert automatisch alle benötigten Pakete und ihre Abhängigkeiten in einem Projekt, wenn man den Befehl "composer install" ausführt.
+
+* Der Composer bietet auch eine Vielzahl von Befehlen, um Pakete zu aktualisieren, zu entfernen, zu suchen oder zu verwalten.
+
+* Der Composer ist eine wichtige Komponente im modernen PHP-Ökosystem und wird von vielen großen Frameworks und Bibliotheken wie Laravel, Symfony und PHPUnit verwendet.

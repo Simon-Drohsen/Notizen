@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.4;
+    border: 0;
+}
+
+article {
+    border: 4px solid black;
+    width: 900px;
+    margin: 50px auto;
+    position: relative;
+}
+
+button {
+    border: 0;
+    border-top: 4px black solid;
+    padding: 15px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+#title {
+    background-color: #f7f7f7;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 22px;
+    padding: 15px;
+}
+
+#aktion {
+    width: fit-content;
+    background-color: #ec2f2f;
+    color: white;
+    font-size: 12px;
+    padding: 7px 15px;
+    white-space: 2px;
+}
+
+#price {
+    font-size: 24px;
+}
+
+#kostenloser-versand {
+    text-transform: uppercase;
+    color: #777;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#produkt-details {
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+#see-more:link, #see-more:visited {
+    color: black;
+}
+
+#see-more:hover, #see-more:active {
+    text-decoration: none;
+}
+
+#list {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+#list-element {
+    margin-bottom: 10px;
+}
+
+#grid {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+#grid-item1 {
+    background-color: #000;
+}
+
+#grid-item2 {
+    background-color: #2f6ee2;
+}
+
+#grid-item3 {
+    background-color: #ec2f2f;
+}
+
+#grid-item4 {
+    background-color: #f0bf1e;
+}
+
+#grid-item5 {
+    background-color: #90cc20;
+}
+
+#grid-item6 {
+    background-color: #885214;
+}
+
+.grid-item {
+    margin-right: 10px;
+    width: 22px;
+    height: 22px;
+}
