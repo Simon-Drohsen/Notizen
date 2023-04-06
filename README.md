@@ -22,4 +22,4 @@
 20. [Client- und Server Side Validation](https://github.com/Osaaro/Notizen/blob/9167c422901fe62ddd7c332a65a24b88fcf1d437/php/validation.md)
 21. [DNS Server Notizen](https://github.com/Osaaro/Notizen/blob/b279c718c3dfb0ee710c1e687b02711ba09e5d2d/allgemein/dns-server-notizen.md)
 22. [UML Notizen](https://github.com/Simon-Drohsen/Notizen/blob/main/php/uml.md)
-23. [Kubernetis]([allgemein/kubernetis.md](https://github.com/Simon-Drohsen/Notizen/blob/82e9057405eb24d84018879e57109c03ee535945/allgemein/kubernetis.md))
+23. [Kubernetis](https://github.com/Simon-Drohsen/Notizen/blob/82e9057405eb24d84018879e57109c03ee535945/allgemein/kubernetis.md)
