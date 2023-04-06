@@ -1,4 +1,4 @@
-<h1>Kubernetis</h1>
+<h1>Kubernetes</h1>
 
 * Kubernetes ist eine Open-Source-Plattform zur Verwaltung von Containern.
 
