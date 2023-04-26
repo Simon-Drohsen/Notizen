@@ -10,7 +10,7 @@
 
 * [UIKIT](https://github.com/Simon-Drohsen/Notizen/blob/main/style_frameworks/uikit.md)
 
-* [Design](https://github.com/Osaaro/Notizen/blob/main/Design/Design.md)
+* ["Designen"](https://github.com/Osaaro/Notizen/blob/main/Design/Design.md)
 
 <h2>ÜK</h2>
 
