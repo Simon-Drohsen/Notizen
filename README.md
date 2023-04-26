@@ -23,5 +23,5 @@
 21. [DNS Server Notizen](https://github.com/Osaaro/Notizen/blob/b279c718c3dfb0ee710c1e687b02711ba09e5d2d/allgemein/dns-server-notizen.md)
 22. [UML Notizen](https://github.com/Simon-Drohsen/Notizen/blob/main/php/uml.md)
 23. [Kubernetes](https://github.com/Simon-Drohsen/Notizen/blob/main/allgemein/kubernetes.md)
-24. [Tailwind-css]()
+24. [Tailwind-css](https://github.com/Simon-Drohsen/Notizen/blob/main/style_frameworks/tailwind-css.md)
 25. [UIKIT]()
