@@ -42,6 +42,8 @@
 
 * [Website](https://github.com/Osaaro/Notizen/blob/main/website.md)
 
+* [SQL](https://github.com/Simon-Drohsen/Notizen/blob/main/sql/sql.md)
+
 <h2>Git</h2>
 
 * [Alle Infos zu Git und GitHub](https://github.com/Osaaro/Notizen/blob/main/alle-infos-zu-git-und-github.md)
