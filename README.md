@@ -18,6 +18,8 @@
 
 * [ÜK M216](https://github.com/Osaaro/Notizen/blob/8655bbcd80b9bda00d835bdeaec36fa49d305228/%C3%9CK/M216.md)
 
+* [ÜK M106](https://github.com/Simon-Drohsen/Notizen/blob/main/%C3%9CK/M106.md)
+
 <h2>HTML und PHP</h2>
 
 * [HTML](https://github.com/Osaaro/Notizen/blob/main/html-notizen.md)
