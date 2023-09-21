@@ -190,13 +190,13 @@
 
  <h2>CSS-Übergänge bestehen aus 4 Komponenten:</h2>
 
-    * Eine Eigenschaft, die übergehen wird.
+* Eine Eigenschaft, die übergehen wird.
 
-    * Die Dauer, die beschreibt, wie lange der Übergang dauert.
+* Die Dauer, die beschreibt, wie lange der Übergang dauert.
 
-    * Die Verzögerung zum Anhalten, bevor der Übergang stattfindet.
+* Die Verzögerung zum Anhalten, bevor der Übergang stattfindet.
 
-    * Die Timing-Funktion, die die Beschleunigung des Übergangs beschreibt.
+* Die Timing-Funktion, die die Beschleunigung des Übergangs beschreibt.
 
 * Die Größe von Inhalten auf einer Website kann relativ zu anderen Elementen auf der Seite mithilfe von relativen Maßen angepasst werden.
 
@@ -308,11 +308,11 @@
 
 <h2>Es gibt drei Arten von "Breadcrumbs":</h2>
 
-    * Standort - basierend auf der hierarchischen Struktur der Website
+* Standort - basierend auf der hierarchischen Struktur der Website
 
-    * Attribut - basierend auf Attributen der aktuellen Seite oder des aktuellen Elements
+* Attribut - basierend auf Attributen der aktuellen Seite oder des aktuellen Elements
 
-    * Pfad - einzigartig für die Reise eines Benutzers auf der Website
+* Pfad - einzigartig für die Reise eines Benutzers auf der Website
 
 * Pfadbasierte Breadcrumbs können verwirrend sein, verwenden Sie sie nur bei Bedarf
 
